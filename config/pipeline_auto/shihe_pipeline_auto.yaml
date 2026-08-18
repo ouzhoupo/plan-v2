@@ -1,0 +1,71 @@
+project_root: ../..
+date: auto
+target_resolution: 10.0
+aoi_shp: data/aoi/shihe.shp
+dem_tif: data/dem/dem.tif
+river_dir: data/river
+reservoir_shp: data/reservoir/psh_res.shp
+out_dir: output/shihe
+
+sentinel1:
+  scenes: auto
+  scene_dir: data/s1
+  scene_glob:
+    - "*.tif"
+    - "*.tiff"
+  vv_band: 1
+  vh_band: 2
+  in_db: true
+
+sentinel2:
+  scenes: auto
+  scene_dir: data/s2
+  scene_glob:
+    - "*.tif"
+    - "*.tiff"
+  b02_band: 1
+  b03_band: 2
+  b04_band: 3
+  b08_band: 4
+  b11_band: 5
+  b12_band: 6
+  scl_band: 7
+
+prior:
+  reference_water_tif: output/source_water_masks/water_mask_2025-04-11_shihe.tif
+  extent_threshold: 0.1
+
+fusion:
+  block_size: 512
+  sar_tau_days: 8.0
+  optical_tau_days: 6.0
+  cloud_dilate_px: 2
+  sar_texture_size: 5
+  close_radius_px: 0
+  open_radius_px: 0
+  fill_holes: false
+
+downstream:
+  region: shihe
+  source_water_mask_dir: output/shihe
+  line_buffer_m: 0.0
+  min_water_area_m2: 500.0
+  close_radius_px: 1
+  open_radius_px: 0
+  fill_holes: false
+  all_touched: true
+  block_size: 512
+  landuse_water_hard_mask: false
+  watershed_split_enable: false
+  linear_artifact_filter_enable: false
+  skip_volume_above_area_m2: null
+  landuse_water_tif: data/landuse_water/PSH_土地利用水体.tif
+  max_water_area_m2: 750000.0
+  out_dir: output/final/shihe
+  buffer_rules:
+    分干渠: 20
+    干渠: 25
+    总干渠: 35
+    支渠: 12
+    河: 20
+    渠道: 15

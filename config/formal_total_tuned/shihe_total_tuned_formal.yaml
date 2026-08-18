@@ -1,0 +1,30 @@
+project_root: ../..
+date: auto
+region: shihe
+source_water_mask_dir: output/source_water_masks
+dem_tif: data/dem/dem.tif
+line_buffer_m: 0.0
+min_water_area_m2: 500.0
+close_radius_px: 1
+open_radius_px: 0
+fill_holes: false
+all_touched: true
+block_size: 512
+landuse_water_hard_mask: false
+watershed_split_enable: false
+linear_artifact_filter_enable: false
+skip_volume_above_area_m2: null
+aoi_shp: data/aoi/shihe.shp
+water_tif: auto
+landuse_water_tif: data/landuse_water/PSH_土地利用水体.tif
+reservoir_shp: data/reservoir/psh_res.shp
+river_dir: output/shihe/buffered_river
+out_dir: output/final/shihe
+max_water_area_m2: 750000.0
+buffer_rules:
+  分干渠: 20
+  干渠: 25
+  总干渠: 35
+  支渠: 12
+  河: 20
+  渠道: 15
