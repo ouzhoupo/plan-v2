@@ -1,0 +1,72 @@
+{
+  "date": "2024-05-01",
+  "grid": {
+    "width": 8796,
+    "height": 6181,
+    "crs": "EPSG:32650",
+    "bounds": [
+      464520.0,
+      3430190.0,
+      552480.0,
+      3492000.0
+    ],
+    "res": 10.0
+  },
+  "n_s1_scenes": 1,
+  "n_s2_scenes": 1,
+  "s1_scene_params": {
+    "s1_stack_2024-05-01": {
+      "th_vv": -10.773,
+      "th_vh": -18.458,
+      "sigma_vv": 1.2,
+      "sigma_vh": 1.2
+    }
+  },
+  "optical_calibration": {
+    "status": "OK",
+    "n_samples": 200766,
+    "n_train": 160612,
+    "n_val": 40154,
+    "n_pos": 100383,
+    "n_neg": 100383,
+    "roc_auc": 0.8980674887314164,
+    "brier": 0.12912502435839368,
+    "balanced_accuracy": 0.8190964785575534,
+    "feature_order": [
+      "green",
+      "nir",
+      "swir1",
+      "swir2",
+      "red",
+      "blue",
+      "ndwi",
+      "mndwi",
+      "awei_sh",
+      "ndvi",
+      "prior",
+      "slope"
+    ]
+  },
+  "outputs": {
+    "water_prob_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\water_prob_2024-05-01.tif",
+    "water_mask_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\water_mask_2024-05-01.tif",
+    "source_flag_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\source_flag_2024-05-01.tif",
+    "confidence_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\confidence_2024-05-01.tif",
+    "summary_json": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\fusion_summary_2024-05-01.json"
+  },
+  "prior_source_count": 0,
+  "expected_water_area_m2": 791780534.241,
+  "binary_water_area_m2": 276633400.0,
+  "source_flag_pixels": {
+    "1": 2004562,
+    "2": 8829,
+    "3": 20889631,
+    "4": 26456
+  },
+  "downstream": {
+    "config": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\monitor_cfg_2024-05-01.yaml",
+    "returncode": 0,
+    "stdout": "{\n  \"pond_count\": 913,\n  \"pond_area_m2\": 32016400.0,\n  \"outputs\": {\n    \"mask_tif\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\pond_water_mask_2024-05-01.tif\",\n    \"pond_gpkg\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\pond_storage_2024-05-01.gpkg\",\n    \"pond_csv\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\pond_storage_2024-05-01.csv\",\n    \"resolved_config\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\resolved_monitor_cfg_2024-05-01.yaml\",\n    \"summary_json\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\deduct_summary_2024-05-01.json\",\n    \"summary_csv\": \"D:\\\\PSH蓄水\\\\pond_s1s2_v7\\\\output\\\\20240501\\\\final\\\\hangbuhe\\\\deduct_summary_2024-05-01.csv\"\n  }\n}\n",
+    "stderr": "14:34:26 | INFO | 读取扣除图层 _                    要素数：5\n14:34:26 | INFO | 读取扣除图层 _2                   要素数：4\n14:34:26 | INFO | 读取扣除图层 _3                   要素数：2\n14:34:26 | INFO | 读取扣除图层 __1                  要素数：2\n14:34:26 | INFO | 读取扣除图层 __2                  要素数：59\n14:34:26 | INFO | 读取扣除图层 __3                  要素数：2\n14:34:26 | INFO | 读取扣除图层 __4326               要素数：2\n14:34:26 | INFO | 读取扣除图层 psh_res              要素数：182\n14:34:27 | INFO | 读取扣除图层 known_reservoir      要素数：314\n14:34:27 | INFO | 有效扣除图层数量：9\n14:34:27 | INFO | 创建扣除后水体掩膜：D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\pond_water_mask_2024-05-01.tif，尺寸：8796 x 5744\n14:34:34 | INFO | 扣除后候选塘坝数量：25548（min=500.0 m2，max=750000.0 m2，过小剔除=12828，过大剔除=13，watershed=OFF 种子数=0）\n14:34:40 | INFO | 土地利用水体交集过滤：25548 → 913 个塘坝\n14:34:48 | INFO | 按 DEM 网格分块计算体积，DEM 窗口：Window(col_off=23125, row_off=24309, width=15917, height=9847)\n14:34:49 | INFO | 完成。输出：D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\n"
+  }
+}

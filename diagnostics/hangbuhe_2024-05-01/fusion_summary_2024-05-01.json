@@ -1,0 +1,65 @@
+{
+  "date": "2024-05-01",
+  "grid": {
+    "width": 8796,
+    "height": 6181,
+    "crs": "EPSG:32650",
+    "bounds": [
+      464520.0,
+      3430190.0,
+      552480.0,
+      3492000.0
+    ],
+    "res": 10.0
+  },
+  "n_s1_scenes": 1,
+  "n_s2_scenes": 1,
+  "s1_scene_params": {
+    "s1_stack_2024-05-01": {
+      "th_vv": -10.773,
+      "th_vh": -18.458,
+      "sigma_vv": 1.2,
+      "sigma_vh": 1.2
+    }
+  },
+  "optical_calibration": {
+    "status": "OK",
+    "n_samples": 200766,
+    "n_train": 160612,
+    "n_val": 40154,
+    "n_pos": 100383,
+    "n_neg": 100383,
+    "roc_auc": 0.8980674887314164,
+    "brier": 0.12912502435839368,
+    "balanced_accuracy": 0.8190964785575534,
+    "feature_order": [
+      "green",
+      "nir",
+      "swir1",
+      "swir2",
+      "red",
+      "blue",
+      "ndwi",
+      "mndwi",
+      "awei_sh",
+      "ndvi",
+      "prior",
+      "slope"
+    ]
+  },
+  "outputs": {
+    "water_prob_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\water_prob_2024-05-01.tif",
+    "water_mask_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\water_mask_2024-05-01.tif",
+    "source_flag_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\source_flag_2024-05-01.tif",
+    "confidence_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\confidence_2024-05-01.tif"
+  },
+  "prior_source_count": 0,
+  "expected_water_area_m2": 791780534.241,
+  "binary_water_area_m2": 276633400.0,
+  "source_flag_pixels": {
+    "1": 2004562,
+    "2": 8829,
+    "3": 20889631,
+    "4": 26456
+  }
+}

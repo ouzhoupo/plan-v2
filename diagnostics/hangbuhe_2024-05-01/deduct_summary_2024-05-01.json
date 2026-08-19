@@ -1,0 +1,81 @@
+{
+  "source_water_pixels": 2743651,
+  "source_water_area_m2": 274365100.0,
+  "aoi_water_pixels": 2743651,
+  "aoi_water_area_m2": 274365100.0,
+  "landuse_intersected_pixels": 2743651,
+  "landuse_intersected_area_m2": 274365100.0,
+  "deducted_union_pixels": 114842,
+  "deducted_union_area_m2": 11484200.0,
+  "pond_candidate_pixels": 2792747,
+  "pond_candidate_area_m2": 279274700.0,
+  "pixel_area_m2": 100.0,
+  "layers": {
+    "_": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\_.shp",
+      "raw_overlap_m2": 259600.0,
+      "raw_overlap_pixels": 2596
+    },
+    "_2": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\_2.shp",
+      "raw_overlap_m2": 206400.0,
+      "raw_overlap_pixels": 2064
+    },
+    "_3": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\_3.shp",
+      "raw_overlap_m2": 822900.0,
+      "raw_overlap_pixels": 8229
+    },
+    "__1": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\__1.shp",
+      "raw_overlap_m2": 1018800.0,
+      "raw_overlap_pixels": 10188
+    },
+    "__2": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\__2.shp",
+      "raw_overlap_m2": 2099500.0,
+      "raw_overlap_pixels": 20995
+    },
+    "__3": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\__3.shp",
+      "raw_overlap_m2": 1860600.0,
+      "raw_overlap_pixels": 18606
+    },
+    "__4326": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\__4326.shp",
+      "raw_overlap_m2": 1860600.0,
+      "raw_overlap_pixels": 18606
+    },
+    "psh_res": {
+      "source": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river\\psh_res.shp",
+      "raw_overlap_m2": 6377300.0,
+      "raw_overlap_pixels": 63773
+    },
+    "known_reservoir": {
+      "source": "D:/PSH蓄水/pond_s1s2_v7/data/reservoir/psh_res.shp",
+      "raw_overlap_m2": 6377500.0,
+      "raw_overlap_pixels": 63775
+    }
+  },
+  "water_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\water_mask_2024-05-01.tif",
+  "dem_tif": "D:/PSH蓄水/pond_s1s2_v7/data/dem/dem.tif",
+  "aoi_shp": "D:/PSH蓄水/pond_s1s2_v7/data/aoi/hangbuhe.shp",
+  "river_dir": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\hangbuhe\\buffered_river",
+  "reservoir_shp": "D:/PSH蓄水/pond_s1s2_v7/data/reservoir/psh_res.shp",
+  "process_bounds": [
+    464527.85252982867,
+    3434560.8698447663,
+    552475.5284252942,
+    3491992.564894841
+  ],
+  "pond_count_after_min_area": 913,
+  "pond_area_after_min_area_m2": 32016400.0,
+  "outputs": {
+    "mask_tif": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\pond_water_mask_2024-05-01.tif",
+    "pond_gpkg": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\pond_storage_2024-05-01.gpkg",
+    "pond_csv": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\pond_storage_2024-05-01.csv",
+    "resolved_config": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\resolved_monitor_cfg_2024-05-01.yaml",
+    "summary_json": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\deduct_summary_2024-05-01.json",
+    "summary_csv": "D:\\PSH蓄水\\pond_s1s2_v7\\output\\20240501\\final\\hangbuhe\\deduct_summary_2024-05-01.csv"
+  }
+}
