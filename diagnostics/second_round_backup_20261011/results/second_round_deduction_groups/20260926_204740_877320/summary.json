@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "experiment": "Second-round 2024-06 C4 deduction group partition",
+  "date": "2024-06-01",
+  "groups": {
+    "reservoir": {
+      "layer_names": [
+        "psh_res",
+        "known_reservoir"
+      ],
+      "sources": [
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\psh_res.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp"
+      ],
+      "union_pixels": 764595,
+      "union_area_km2": 76.4595
+    },
+    "lake": {
+      "layer_names": [
+        "__4",
+        "__4326"
+      ],
+      "sources": [
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4326.shp"
+      ],
+      "union_pixels": 292248,
+      "union_area_km2": 29.2248
+    },
+    "linear_river_canal": {
+      "layer_names": [
+        "_",
+        "_1",
+        "_2",
+        "_3",
+        "__1",
+        "__2",
+        "__3"
+      ],
+      "sources": [
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_1.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_2.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_3.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__1.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__2.shp",
+        "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__3.shp"
+      ],
+      "union_pixels": 50700,
+      "union_area_km2": 5.07
+    }
+  },
+  "full_deduction_union": {
+    "pixels": 817504,
+    "area_km2": 81.7504
+  },
+  "group_union_vs_full_deduction_mismatch_pixels": 0,
+  "membership_codes": {
+    "1": "reservoir_only",
+    "2": "lake_only",
+    "3": "reservoir_and_lake",
+    "4": "linear_only",
+    "5": "reservoir_and_linear",
+    "6": "lake_and_linear",
+    "7": "reservoir_lake_and_linear"
+  },
+  "combinations": [
+    {
+      "code": 1,
+      "combination": "reservoir_only",
+      "pixels": 474556,
+      "area_km2": 47.4556,
+      "share_of_full_deduction_percent": 58.04937957490116
+    },
+    {
+      "code": 2,
+      "combination": "lake_only",
+      "pixels": 3501,
+      "area_km2": 0.3501,
+      "share_of_full_deduction_percent": 0.4282547852976866
+    },
+    {
+      "code": 3,
+      "combination": "reservoir_and_lake",
+      "pixels": 288747,
+      "area_km2": 28.8747,
+      "share_of_full_deduction_percent": 35.32056112263671
+    },
+    {
+      "code": 4,
+      "combination": "linear_only",
+      "pixels": 49408,
+      "area_km2": 4.9408,
+      "share_of_full_deduction_percent": 6.04376247700317
+    },
+    {
+      "code": 5,
+      "combination": "reservoir_and_linear",
+      "pixels": 1292,
+      "area_km2": 0.1292,
+      "share_of_full_deduction_percent": 0.15804204016127138
+    },
+    {
+      "code": 6,
+      "combination": "lake_and_linear",
+      "pixels": 0,
+      "area_km2": 0.0,
+      "share_of_full_deduction_percent": 0.0
+    },
+    {
+      "code": 7,
+      "combination": "reservoir_lake_and_linear",
+      "pixels": 0,
+      "area_km2": 0.0,
+      "share_of_full_deduction_percent": 0.0
+    }
+  ],
+  "outputs": {
+    "membership_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_groups\\20260926_204740_877320\\deduction_group_membership.tif",
+    "combination_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_groups\\20260926_204740_877320\\deduction_group_combinations.csv",
+    "group_post_deduction_tifs": {
+      "reservoir": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_groups\\20260926_204740_877320\\post_reservoir_deduction.tif",
+      "lake": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_groups\\20260926_204740_877320\\post_lake_deduction.tif",
+      "linear_river_canal": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_groups\\20260926_204740_877320\\post_linear_river_canal_deduction.tif"
+    }
+  },
+  "limits": [
+    "The three group areas overlap; combination rows provide the mutually exclusive accounting.",
+    "A deduction group describes which vector mask covers a pixel, not whether deletion is correct.",
+    "No objects are restored and no DEM volume is calculated."
+  ]
+}

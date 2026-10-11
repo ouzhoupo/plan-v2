@@ -1,0 +1,205 @@
+{
+  "status": "complete",
+  "experiment": "Pihe upstream and temporal-shape contribution decomposition",
+  "stages": {
+    "original_v75": [
+      1855.5975,
+      12545.44625
+    ],
+    "original_v75_plus_temporal_shape": [
+      4338.5075,
+      12545.44625
+    ],
+    "shared_sar_upstream": [
+      2228.14375,
+      3430.1875
+    ],
+    "shared_sar_plus_temporal_shape": [
+      5166.83125,
+      3430.1875
+    ]
+  },
+  "evaluations": {
+    "source_total": {
+      "original_v75": {
+        "model_2024_wan_m3": 1855.5975,
+        "model_2025_wan_m3": 12545.44625,
+        "model_ratio": 6.760866109164299,
+        "manual_ratio": 0.5378121702427013,
+        "direction_matches": false,
+        "trend_log_error": 2.5313969102272442,
+        "absolute_error_2024_wan_m3": 15202.4025,
+        "absolute_error_2025_wan_m3": 3371.446250000001,
+        "total_absolute_error_wan_m3": 18573.84875,
+        "mape_percent": 62.93592397769822
+      },
+      "original_v75_plus_temporal_shape": {
+        "model_2024_wan_m3": 4338.5075,
+        "model_2025_wan_m3": 12545.44625,
+        "model_ratio": 2.8916502391663497,
+        "manual_ratio": 0.5378121702427013,
+        "direction_matches": false,
+        "trend_log_error": 1.6820732618906773,
+        "absolute_error_2024_wan_m3": 12719.4925,
+        "absolute_error_2025_wan_m3": 3371.446250000001,
+        "total_absolute_error_wan_m3": 16090.938750000001,
+        "mape_percent": 55.65807780581407
+      },
+      "shared_sar_upstream": {
+        "model_2024_wan_m3": 2228.14375,
+        "model_2025_wan_m3": 3430.1875,
+        "model_ratio": 1.5394821361952071,
+        "manual_ratio": 0.5378121702427013,
+        "direction_matches": false,
+        "trend_log_error": 1.0516919903963748,
+        "absolute_error_2024_wan_m3": 14829.85625,
+        "absolute_error_2025_wan_m3": 5743.8125,
+        "total_absolute_error_wan_m3": 20573.66875,
+        "mape_percent": 74.77376103226393
+      },
+      "shared_sar_plus_temporal_shape": {
+        "model_2024_wan_m3": 5166.83125,
+        "model_2025_wan_m3": 3430.1875,
+        "model_ratio": 0.6638861100795579,
+        "manual_ratio": 0.5378121702427013,
+        "direction_matches": true,
+        "trend_log_error": 0.2106012405403103,
+        "absolute_error_2024_wan_m3": 11891.16875,
+        "absolute_error_2025_wan_m3": 5743.8125,
+        "total_absolute_error_wan_m3": 17634.98125,
+        "mape_percent": 66.1599507965974
+      }
+    },
+    "component_sum": {
+      "original_v75": {
+        "model_2024_wan_m3": 1855.5975,
+        "model_2025_wan_m3": 12545.44625,
+        "model_ratio": 6.760866109164299,
+        "manual_ratio": 0.5725759174580842,
+        "direction_matches": false,
+        "trend_log_error": 2.4687609499368843,
+        "absolute_error_2024_wan_m3": 15202.4025,
+        "absolute_error_2025_wan_m3": 2778.446250000001,
+        "total_absolute_error_wan_m3": 17980.84875,
+        "mape_percent": 58.78455927615733
+      },
+      "original_v75_plus_temporal_shape": {
+        "model_2024_wan_m3": 4338.5075,
+        "model_2025_wan_m3": 12545.44625,
+        "model_ratio": 2.8916502391663497,
+        "manual_ratio": 0.5725759174580842,
+        "direction_matches": false,
+        "trend_log_error": 1.6194373016003174,
+        "absolute_error_2024_wan_m3": 12719.4925,
+        "absolute_error_2025_wan_m3": 2778.446250000001,
+        "total_absolute_error_wan_m3": 15497.938750000001,
+        "mape_percent": 51.506713104273175
+      },
+      "shared_sar_upstream": {
+        "model_2024_wan_m3": 2228.14375,
+        "model_2025_wan_m3": 3430.1875,
+        "model_ratio": 1.5394821361952071,
+        "manual_ratio": 0.5725759174580842,
+        "direction_matches": false,
+        "trend_log_error": 0.9890560301060151,
+        "absolute_error_2024_wan_m3": 14829.85625,
+        "absolute_error_2025_wan_m3": 6336.8125,
+        "total_absolute_error_wan_m3": 21166.66875,
+        "mape_percent": 75.9088310029449
+      },
+      "shared_sar_plus_temporal_shape": {
+        "model_2024_wan_m3": 5166.83125,
+        "model_2025_wan_m3": 3430.1875,
+        "model_ratio": 0.6638861100795579,
+        "manual_ratio": 0.5725759174580842,
+        "direction_matches": true,
+        "trend_log_error": 0.1479652802499503,
+        "absolute_error_2024_wan_m3": 11891.16875,
+        "absolute_error_2025_wan_m3": 6336.8125,
+        "total_absolute_error_wan_m3": 18227.98125,
+        "mape_percent": 67.29502076727833
+      }
+    }
+  },
+  "comparisons": {
+    "source_total": {
+      "temporal_shape_on_original_v75": {
+        "trend_log_error_reduction": 0.8493236483365669,
+        "trend_error_reduction_fraction_of_before": 0.33551579560880596,
+        "total_absolute_error_reduction_wan_m3": 2482.91,
+        "absolute_error_reduction_fraction_of_before": 0.13367773332384866,
+        "direction_before": false,
+        "direction_after": false
+      },
+      "shared_sar_upstream_only": {
+        "trend_log_error_reduction": 1.4797049198308694,
+        "trend_error_reduction_fraction_of_before": 0.5845408572052163,
+        "total_absolute_error_reduction_wan_m3": -1999.8199999999997,
+        "absolute_error_reduction_fraction_of_before": -0.10766858430458574,
+        "direction_before": false,
+        "direction_after": false
+      },
+      "temporal_shape_after_shared_sar": {
+        "trend_log_error_reduction": 0.8410907498560646,
+        "trend_error_reduction_fraction_of_before": 0.7997500765780899,
+        "total_absolute_error_reduction_wan_m3": 2938.6875,
+        "absolute_error_reduction_fraction_of_before": 0.14283730994745406,
+        "direction_before": false,
+        "direction_after": true
+      },
+      "combined_vs_original_v75": {
+        "trend_log_error_reduction": 2.320795669686934,
+        "trend_error_reduction_fraction_of_before": 0.9168043384704121,
+        "total_absolute_error_reduction_wan_m3": 938.8675000000003,
+        "absolute_error_reduction_fraction_of_before": 0.05054781659078603,
+        "direction_before": false,
+        "direction_after": true
+      }
+    },
+    "component_sum": {
+      "temporal_shape_on_original_v75": {
+        "trend_log_error_reduction": 0.8493236483365669,
+        "trend_error_reduction_fraction_of_before": 0.34402830632843595,
+        "total_absolute_error_reduction_wan_m3": 2482.91,
+        "absolute_error_reduction_fraction_of_before": 0.13808636258063178,
+        "direction_before": false,
+        "direction_after": false
+      },
+      "shared_sar_upstream_only": {
+        "trend_log_error_reduction": 1.4797049198308692,
+        "trend_error_reduction_fraction_of_before": 0.5993714862788554,
+        "total_absolute_error_reduction_wan_m3": -3185.8199999999997,
+        "absolute_error_reduction_fraction_of_before": -0.1771785105527902,
+        "direction_before": false,
+        "direction_after": false
+      },
+      "temporal_shape_after_shared_sar": {
+        "trend_log_error_reduction": 0.8410907498560648,
+        "trend_error_reduction_fraction_of_before": 0.8503974742117592,
+        "total_absolute_error_reduction_wan_m3": 2938.6875,
+        "absolute_error_reduction_fraction_of_before": 0.13883561625633697,
+        "direction_before": false,
+        "direction_after": true
+      },
+      "combined_vs_original_v75": {
+        "trend_log_error_reduction": 2.320795669686934,
+        "trend_error_reduction_fraction_of_before": 0.9400649624445278,
+        "total_absolute_error_reduction_wan_m3": -247.1324999999997,
+        "absolute_error_reduction_fraction_of_before": -0.013744206596476693,
+        "direction_before": false,
+        "direction_after": true
+      }
+    }
+  },
+  "interpretation": [
+    "The original-V75 and shared-SAR paths use different upstream outputs, so the comparison is a stage attribution rather than a factorial causal estimate.",
+    "The temporal-shape branch improves both trend and 2024 absolute error on either upstream baseline.",
+    "Only the shared-SAR plus temporal-shape combination reaches the manual decline direction.",
+    "Both manual-total scenarios are retained because the source workbook contains a known Pihe 2025 total discrepancy."
+  ],
+  "limits": [
+    "The shared-SAR stage changes both dates and therefore can improve trend while worsening absolute error.",
+    "Manual totals are regional aggregates rather than object labels.",
+    "No production mask, parameter, or model code is changed."
+  ]
+}

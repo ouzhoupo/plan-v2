@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "experiment": "Operational temporal-shape candidate exact V75",
+  "region": "pihe",
+  "selection": "Previous-date model coverage >=0.25, area 0.2-5 ha, bbox fill >=0.45, and elongation <=3; no future evidence is used for selection.",
+  "candidate": {
+    "object_count": 6565,
+    "area_m2": 36360000.0,
+    "area_km2": 36.36,
+    "reused_persistent_objects": 5086,
+    "newly_processed_without_future_objects": 1479,
+    "reused_persistent_v75_m3": 24442550.0,
+    "new_without_future_metrics": {
+      "object_count": 1479,
+      "area_m2": 7814200.0,
+      "area_km2": 7.8142,
+      "qa_counts": {
+        "OK": 1476,
+        "NO_DEM_ON_BOUNDARY": 3
+      },
+      "missing_v75": 3,
+      "v05_m3": 76967.5,
+      "v50_m3": 2171225.0,
+      "v75_m3": 4944325.0,
+      "v95_m3": 9603101.25,
+      "vmean_m3": 2562000.275,
+      "equivalent_depth_v75_div_area": 0.6327359166645338
+    },
+    "total_v75_m3": 29386875.0,
+    "total_v75_wan_m3": 2938.6875,
+    "total_missing_v75": 16
+  },
+  "evaluation": {
+    "current_paired_candidate": {
+      "model_wan_m3": {
+        "2024-06-01": 2228.14375,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14829.85625,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 20573.66875,
+      "mape_percent": 74.77376103226393,
+      "model_2025_to_2024_ratio": 1.5394821361952071,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 1.0516919903963748,
+      "direction_matches_manual": false
+    },
+    "baseline_plus_operational_shape_candidate": {
+      "model_wan_m3": {
+        "2024-06-01": 5166.83125,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 11891.16875,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 17634.98125,
+      "mape_percent": 66.1599507965974,
+      "model_2025_to_2024_ratio": 0.6638861100795579,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 0.2106012405403103,
+      "direction_matches_manual": true,
+      "total_absolute_error_reduction_vs_current_wan_m3": 2938.6875,
+      "trend_log_error_reduction_vs_current": 0.8410907498560646
+    }
+  },
+  "outputs": {
+    "new_objects_gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_shape_dem_volume\\20261010_192503_120178\\selected_without_future_support_with_volume.gpkg",
+    "new_objects_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_shape_dem_volume\\20261010_192503_120178\\selected_without_future_support_with_volume.csv"
+  },
+  "limits": [
+    "Thresholds are exploratory sensitivity values and are not frozen production parameters.",
+    "Historical model persistence can repeat stable false positives.",
+    "The held-out review found both nonwater risk and real-water losses at the area boundary.",
+    "Manual survey spatial-scope equivalence remains unresolved.",
+    "Only Pihe is tested; Shihe and Hangbuhe remain untested.",
+    "Production code, masks, and formal outputs are unchanged."
+  ]
+}

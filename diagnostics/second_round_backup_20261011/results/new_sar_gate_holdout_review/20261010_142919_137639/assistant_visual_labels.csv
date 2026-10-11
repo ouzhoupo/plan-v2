@@ -1,0 +1,13 @@
+object_id,proxy_label,removed_part_interpretation,evidence,notes
+11117,nonwater_agricultural_complex,mostly_correct_removal,"2025 RGB shows agricultural/covered surfaces; removed pixels do not form a coherent dark water body","Supports gate on a low-removal false-positive complex"
+14611,nonwater_agricultural,mostly_correct_removal,"2025 RGB and SAR are dominated by fields and narrow artificial features","Supports gate; retained cyan portion also lacks strong visual water evidence"
+90572,true_water_aquaculture_complex,minor_edge_or_internal_loss,"2025 RGB shows a pond/aquaculture complex; 94.6% remains after the gate","True-water control with limited loss; removed pixels are scattered"
+33056,nonwater_agricultural_with_small_retained_patch,mostly_correct_selective_removal,"Removed northern portion follows bright fields/covered surfaces while a darker southern patch remains","Supports spatial selectivity, but retained patch is not field-confirmed water"
+36908,mixed_water_and_nonwater,correct_selective_removal,"Northern removed portion is field/bare-surface-like; southern dark pond-shaped portion remains","Strong mechanism example: gate separates nonwater from plausible water"
+5427,mixed_water_and_nonwater,correct_selective_removal,"Northern elongated dark water-like feature remains; southern bright field/covered area is removed","Strong mechanism example with limited apparent water loss"
+25265,nonwater_agricultural_complex,mostly_correct_removal,"2025 RGB is dominated by fields/structures and lacks a coherent water surface","Full removal appears reasonable from current-date imagery"
+13323,seasonal_or_drained_waterbody_uncertain,uncertain_full_removal,"2024 RGB contains a water/depression-like feature, while 2025 is largely pale or exposed; current water status is ambiguous","Do not treat as confirmed error or confirmed success; flags temporal persistence risk"
+30703,seasonal_or_cloud_affected_waterbody_uncertain,uncertain_full_removal,"2024 RGB is dark and water-like; 2025 RGB is brown with nearby cloud influence and SAR evidence is inconclusive","Full removal is a material risk case requiring temporal or clearer optical support"
+64564,true_large_water,negligible_edge_loss,"Large coherent water body remains; only 0.34% is removed in the local largest-change crop","Supports acceptable side effect at large-water scale"
+104410,true_large_water,minor_edge_loss,"Large coherent reservoir remains; removal is about 1.14% and concentrated near edges/small patches","Supports acceptable side effect, subject to shoreline-season interpretation"
+10803,true_large_water,negligible_edge_loss,"Large coherent water body remains; only about 0.38% is removed","Supports acceptable side effect at large-water scale"

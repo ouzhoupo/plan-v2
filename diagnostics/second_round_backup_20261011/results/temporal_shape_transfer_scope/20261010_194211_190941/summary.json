@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "experiment": "Temporal-shape transfer input and evaluation scope audit",
+  "tested_pairs": 21,
+  "mechanism_input_ready_pairs": 19,
+  "short_gap_ready_pairs": 11,
+  "same_date_cross_region_ready": [
+    {
+      "region": "shihe",
+      "target_date": "2024-06-01",
+      "previous_date": "2024-05-21",
+      "gap_days": 11
+    },
+    {
+      "region": "hangbuhe",
+      "target_date": "2024-06-01",
+      "previous_date": "2024-05-21",
+      "gap_days": 11
+    }
+  ],
+  "recommended_next_scope": "2024-06-01 Shihe and Hangbuhe, using 2024-05-21 as previous evidence, because this holds dates and season fixed while testing spatial transfer.",
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_shape_transfer_scope\\20261010_194211_190941\\transfer_scope.csv",
+  "interpretation": [
+    "Input-ready means the saved upstream masks, target final output, S1/S2 stacks, AOI, DEM, land use, and config exist.",
+    "Most transfer cases still require reconstruction of the target pre-land-use area-gate stage.",
+    "Cross-region mechanism transfer can be tested without claiming manual-trend accuracy for each subregion.",
+    "Long temporal gaps are listed but should not be treated as equivalent to short previous-date support."
+  ],
+  "limits": [
+    "File availability does not establish grid compatibility or successful stage reconstruction.",
+    "Only the Pihe 2024-06 to 2025-05 pair currently has the established manual trend evaluation in this diagnostic chain.",
+    "No model stage is rerun and no candidate is transferred by this audit."
+  ]
+}

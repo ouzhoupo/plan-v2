@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "reviewed_objects": 20,
+  "sources": [
+    {
+      "path": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\psh_res.shp",
+      "features": 738,
+      "columns": [
+        "id",
+        "geometry"
+      ]
+    },
+    {
+      "path": "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp",
+      "features": 1981,
+      "columns": [
+        "UserID",
+        "elementtyp",
+        "scale",
+        "geometry"
+      ]
+    }
+  ],
+  "match_rows": 40,
+  "limits": [
+    "Vector attributes do not independently establish survey inclusion.",
+    "Geometric intersections differ from raster cell inclusion at boundaries.",
+    "Duplicate source layers must not be summed.",
+    "Small component within large reservoir may indicate upstream fragmentation; overlap alone does not prove target class."
+  ]
+}

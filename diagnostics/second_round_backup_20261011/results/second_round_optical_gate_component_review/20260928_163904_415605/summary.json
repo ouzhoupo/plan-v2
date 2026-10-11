@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "targets": 17,
+  "pages": 6,
+  "selection": "Area/contact strata; deterministic size-ranked and spatially spread selection; not random validation.",
+  "limits": [
+    "Selected fragments are not complete ponds.",
+    "Upstream C4 neighbors may be removed downstream.",
+    "No threshold or mask changes; sample fractions cannot estimate population accuracy."
+  ]
+}

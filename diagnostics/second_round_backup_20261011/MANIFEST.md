@@ -1,0 +1,173 @@
+# 第二轮误差分析与调整备份清单
+
+备份日期：2026-10-11
+
+## 备份范围
+
+- 第二轮起点：2026-09-26。
+- 研究记录：`RESEARCH_STATE.md`、`PROJECT_CONTEXT.md`、第二轮专题记录及两份阶段报告。
+- 脚本：第二轮期间新增或更新的诊断、实验、GIS复核、DEM传播与汇总脚本。
+- 轻量结果证据：各实验`summary.json`、GIS人工判读标签、鲁棒性矩阵及全日期汇总表，共
+105
+个文件。
+- 大型TIF、PNG、GPKG和中间对象明细仍保存在本机`diagnostics/results`，受`.gitignore`保护，不进入GitHub。
+- `data`、`output`、PPT临时文件和旧EXE状态不属于本次提交。
+
+## 阶段报告
+
+- `diagnostics/SECOND_ROUND_ERROR_ANALYSIS_SUMMARY.md`
+- `diagnostics/SECOND_ROUND_ROBUSTNESS_ASSESSMENT.md`
+- `第二轮误差归因与模型改进记录_2026-09-26.md`
+
+## 脚本（
+69
+个）
+
+- `diagnostics/scripts/analyze_2024_c4_pre_deduction_components.py`
+- `diagnostics/scripts/analyze_2024_c4_reservoir_component_features.py`
+- `diagnostics/scripts/analyze_optical_gate_fragment_evidence.py`
+- `diagnostics/scripts/audit_2024_c4_deduction_groups.py`
+- `diagnostics/scripts/audit_2024_c4_deduction_morphology_split.py`
+- `diagnostics/scripts/audit_2024_landuse_temporal_evidence.py`
+- `diagnostics/scripts/audit_additional_short_gap_transfer.py`
+- `diagnostics/scripts/audit_all_date_temporal_shape_transfer.py`
+- `diagnostics/scripts/audit_common_support_reviewed_objects.py`
+- `diagnostics/scripts/audit_cross_region_baseline_trends.py`
+- `diagnostics/scripts/audit_cross_region_manual_totals.py`
+- `diagnostics/scripts/audit_current_trend_qualification.py`
+- `diagnostics/scripts/audit_hangbuhe_tiered_current_evidence.py`
+- `diagnostics/scripts/audit_hangbuhe_two_previous_support.py`
+- `diagnostics/scripts/audit_new_sar_coverage_evidence.py`
+- `diagnostics/scripts/audit_new_sar_gate_reviewed_objects.py`
+- `diagnostics/scripts/audit_operational_temporal_shape_candidate.py`
+- `diagnostics/scripts/audit_operational_temporal_shape_sensitivity.py`
+- `diagnostics/scripts/audit_optical_gate_components.py`
+- `diagnostics/scripts/audit_optical_gate_outside_deduction.py`
+- `diagnostics/scripts/audit_parent_optical_gate.py`
+- `diagnostics/scripts/audit_pihe_module_contributions.py`
+- `diagnostics/scripts/audit_reservoir_boundary_pixels.py`
+- `diagnostics/scripts/audit_reservoir_boundary_scope.py`
+- `diagnostics/scripts/audit_reservoir_parent_evidence.py`
+- `diagnostics/scripts/audit_reservoir_parent_upstream.py`
+- `diagnostics/scripts/audit_reservoir_rescue_screening_scope.py`
+- `diagnostics/scripts/audit_reservoir_review_vector_overlap.py`
+- `diagnostics/scripts/audit_retrospective_rescue_volume_concentration.py`
+- `diagnostics/scripts/audit_second_round_robustness.py`
+- `diagnostics/scripts/audit_shihe_temporal_shape_sensitivity.py`
+- `diagnostics/scripts/audit_shihe_tiered_current_evidence.py`
+- `diagnostics/scripts/audit_shihe_two_previous_support.py`
+- `diagnostics/scripts/audit_temporal_shape_cross_region_bridge.py`
+- `diagnostics/scripts/audit_temporal_shape_transfer_scope.py`
+- `diagnostics/scripts/audit_two_date_branch_probabilities.py`
+- `diagnostics/scripts/audit_two_date_source_transitions.py`
+- `diagnostics/scripts/audit_two_date_stage_trend_capacity.py`
+- `diagnostics/scripts/audit_two_date_upstream_object_drivers.py`
+- `diagnostics/scripts/experiment_common_sar_support_upstream.py`
+- `diagnostics/scripts/experiment_new_sar_evidence_gate_upstream.py`
+- `diagnostics/scripts/experiment_shared_optical_blend_upstream.py`
+- `diagnostics/scripts/experiment_shared_sar_calibration_upstream.py`
+- `diagnostics/scripts/plot_2024_c4_deduction_group_review.py`
+- `diagnostics/scripts/plot_2024_c4_pre_deduction_component_review.py`
+- `diagnostics/scripts/plot_2024_landuse_temporal_evidence_review.py`
+- `diagnostics/scripts/plot_hangbuhe_dual_source_secondary_review.py`
+- `diagnostics/scripts/plot_hangbuhe_two_previous_support_review.py`
+- `diagnostics/scripts/plot_new_sar_gate_holdout_review.py`
+- `diagnostics/scripts/plot_operational_temporal_shape_boundary_review.py`
+- `diagnostics/scripts/plot_operational_temporal_shape_review.py`
+- `diagnostics/scripts/plot_optical_gate_component_review.py`
+- `diagnostics/scripts/plot_parent_upstream_evidence.py`
+- `diagnostics/scripts/plot_reservoir_screening_holdout_review.py`
+- `diagnostics/scripts/plot_retrospective_rescue_contributor_review.py`
+- `diagnostics/scripts/plot_shihe_scl_secondary_rescue_review.py`
+- `diagnostics/scripts/plot_shihe_temporal_shape_boundary_review.py`
+- `diagnostics/scripts/plot_shihe_two_previous_support_review.py`
+- `diagnostics/scripts/plot_temporal_shape_cross_region_review.py`
+- `diagnostics/scripts/plot_two_date_upstream_object_driver_review.py`
+- `diagnostics/scripts/prepare_2024_temporal_landuse_rescue_candidates.py`
+- `diagnostics/scripts/run_2024_operational_temporal_rescue_dem_volume.py`
+- `diagnostics/scripts/run_2024_retrospective_temporal_rescue_dem_volume.py`
+- `diagnostics/scripts/run_cross_region_temporal_shape_dem_volume.py`
+- `diagnostics/scripts/run_hangbuhe_temporal_shape_dem_volume.py`
+- `diagnostics/scripts/run_new_sar_gate_dem_volume.py`
+- `diagnostics/scripts/run_new_sar_gate_downstream.py`
+- `diagnostics/scripts/run_operational_temporal_shape_dem_volume.py`
+- `diagnostics/scripts/summarize_second_round_qualification.py`
+
+## 已登记结果运行（
+74
+个）
+
+- `diagnostics/results/all_date_temporal_shape_transfer/20261011_194807_673435`
+- `diagnostics/results/common_sar_support_upstream/20261009_232419_505438`
+- `diagnostics/results/common_support_reviewed_objects/20261010_000900_422860`
+- `diagnostics/results/cross_region_baseline_trends/20261010_202616_329605`
+- `diagnostics/results/cross_region_manual_totals/20261010_201437_787088`
+- `diagnostics/results/hangbuhe_dual_source_secondary_review/20261011_173049_286353`
+- `diagnostics/results/hangbuhe_temporal_shape_dem_volume/20261010_202944_992574`
+- `diagnostics/results/hangbuhe_tiered_current_evidence/20261011_165659_203089`
+- `diagnostics/results/hangbuhe_two_previous_support_review/20261011_164432_757364`
+- `diagnostics/results/hangbuhe_two_previous_support/20261011_163726_981915`
+- `diagnostics/results/hangbuhe_two_previous_support/20261011_163736_703291`
+- `diagnostics/results/landuse_temporal_evidence_2024/20261010_173122_234024`
+- `diagnostics/results/landuse_temporal_evidence_review_2024/20261010_175140_447294`
+- `diagnostics/results/new_sar_coverage_evidence/20261010_002515_875309`
+- `diagnostics/results/new_sar_evidence_gate_upstream/20261010_134344_780095`
+- `diagnostics/results/new_sar_gate_dem_volume/20261010_145544_878831`
+- `diagnostics/results/new_sar_gate_downstream/20261010_144117_101667`
+- `diagnostics/results/new_sar_gate_holdout_review/20261010_142919_137639`
+- `diagnostics/results/new_sar_gate_reviewed_objects/20261010_140027_910896`
+- `diagnostics/results/operational_temporal_rescue_dem_volume_2024/20261010_182317_438951`
+- `diagnostics/results/operational_temporal_shape_boundary_review/20261010_193540_836555`
+- `diagnostics/results/operational_temporal_shape_candidate/20261010_184856_285062`
+- `diagnostics/results/operational_temporal_shape_dem_volume/20261010_192503_120178`
+- `diagnostics/results/operational_temporal_shape_review/20261010_190316_163013`
+- `diagnostics/results/operational_temporal_shape_sensitivity/20261010_193042_444718`
+- `diagnostics/results/pihe_module_contributions/20261011_180538_705248`
+- `diagnostics/results/pihe_temporal_shape_dem_volume/20261011_175105_696336`
+- `diagnostics/results/retrospective_rescue_contributor_review_2024/20261010_183734_965492`
+- `diagnostics/results/retrospective_rescue_volume_concentration/20261010_183252_458888`
+- `diagnostics/results/retrospective_temporal_rescue_dem_volume_2024/20261010_182755_568239`
+- `diagnostics/results/second_round_deduction_group_review/20260926_210451_066294`
+- `diagnostics/results/second_round_deduction_groups/20260926_204740_877320`
+- `diagnostics/results/second_round_deduction_morphology_split/20260926_203928_115516`
+- `diagnostics/results/second_round_optical_gate_component_review/20260928_163904_415605`
+- `diagnostics/results/second_round_optical_gate_components/20260928_163205_395024`
+- `diagnostics/results/second_round_optical_gate_fragment_evidence/20261009_160051_427679`
+- `diagnostics/results/second_round_optical_gate_outside_deduction/20260928_161557_737310`
+- `diagnostics/results/second_round_parent_evidence_review/20260928_160039_441648`
+- `diagnostics/results/second_round_parent_optical_gate/20260928_160824_551372`
+- `diagnostics/results/second_round_parent_upstream_coverage/20260928_155111_564138`
+- `diagnostics/results/second_round_parent_upstream_evidence/20260928_155528_230876`
+- `diagnostics/results/second_round_parent_upstream_evidence/20260928_155622_869718`
+- `diagnostics/results/second_round_pre_deduction_component_review/20260926_220001_993492`
+- `diagnostics/results/second_round_pre_deduction_components/20260926_212547_194707`
+- `diagnostics/results/second_round_qualification_summary/20261011_181811_281295`
+- `diagnostics/results/second_round_reservoir_boundary_pixels/20260928_153623_651153`
+- `diagnostics/results/second_round_reservoir_boundary_scope/20260928_154207_313888`
+- `diagnostics/results/second_round_reservoir_component_features/20260928_152002_125810`
+- `diagnostics/results/second_round_reservoir_screening_holdout_review/20260928_152854_549492`
+- `diagnostics/results/second_round_reservoir_screening_scope/20260928_152405_196756`
+- `diagnostics/results/second_round_reservoir_vector_overlap/20260928_153258_290974`
+- `diagnostics/results/second_round_robustness_audit/20261011_191431_614906`
+- `diagnostics/results/second_round_robustness_audit/20261011_191451_053882`
+- `diagnostics/results/shared_optical_blend_upstream/20261009_184133_501720`
+- `diagnostics/results/shared_sar_calibration_upstream/20261009_193736_367365`
+- `diagnostics/results/shihe_scl_secondary_rescue_review/20261010_212624_558404`
+- `diagnostics/results/shihe_temporal_shape_boundary_review/20261010_210216_327433`
+- `diagnostics/results/shihe_temporal_shape_dem_volume/20261010_203830_787211`
+- `diagnostics/results/shihe_temporal_shape_sensitivity/20261010_205536_288815`
+- `diagnostics/results/shihe_temporal_shape_sensitivity/20261010_205634_315195`
+- `diagnostics/results/shihe_tiered_current_evidence/20261010_211915_014476`
+- `diagnostics/results/shihe_two_previous_support_review/20261010_211302_425073`
+- `diagnostics/results/shihe_two_previous_support/20261010_210728_559984`
+- `diagnostics/results/temporal_landuse_rescue_candidates_2024/20261010_181232_993446`
+- `diagnostics/results/temporal_shape_cross_region_bridge/20261010_194531_518591`
+- `diagnostics/results/temporal_shape_cross_region_review/20261010_200047_474082`
+- `diagnostics/results/temporal_shape_transfer_scope/20261010_194211_190941`
+- `diagnostics/results/trend_qualification_audit/20261009_162042_796385`
+- `diagnostics/results/two_date_branch_probabilities/20261009_180544_552492`
+- `diagnostics/results/two_date_branch_probabilities/20261009_183245_289820`
+- `diagnostics/results/two_date_source_transitions/20261009_174016_285924`
+- `diagnostics/results/two_date_stage_trend_capacity/20261009_162630_868672`
+- `diagnostics/results/two_date_upstream_object_driver_review/20261009_172614_247553`
+- `diagnostics/results/two_date_upstream_object_drivers/20261009_171738_700797`

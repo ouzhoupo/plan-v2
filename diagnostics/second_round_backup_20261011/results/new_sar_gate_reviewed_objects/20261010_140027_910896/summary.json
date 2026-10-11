@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "experiment": "Selective new-SAR gate retention on fixed reviewed objects",
+  "current_component_count": 212357,
+  "groups": {
+    "mixed_or_uncertain": {
+      "objects": 3,
+      "pixels": 3230,
+      "shared_retained_fraction": 0.8086687306501548,
+      "clear_low_no_aux_gate_retained_fraction": 0.8052631578947368,
+      "clear_low_no_aux_gate_incremental_removed_fraction": 0.003405572755417957,
+      "unclear_or_low_no_aux_gate_retained_fraction": 0.7839009287925697,
+      "unclear_or_low_no_aux_gate_incremental_removed_fraction": 0.02476780185758514
+    },
+    "reviewed_nonwater": {
+      "objects": 10,
+      "pixels": 258312,
+      "shared_retained_fraction": 0.33537737309919785,
+      "clear_low_no_aux_gate_retained_fraction": 0.19441218371581653,
+      "clear_low_no_aux_gate_incremental_removed_fraction": 0.14096518938338135,
+      "unclear_or_low_no_aux_gate_retained_fraction": 0.07494812474836632,
+      "unclear_or_low_no_aux_gate_incremental_removed_fraction": 0.26042924835083153
+    },
+    "true_water_non_target": {
+      "objects": 1,
+      "pixels": 4825,
+      "shared_retained_fraction": 0.8632124352331606,
+      "clear_low_no_aux_gate_retained_fraction": 0.8630051813471502,
+      "clear_low_no_aux_gate_incremental_removed_fraction": 0.0002072538860103627,
+      "unclear_or_low_no_aux_gate_retained_fraction": 0.5295336787564767,
+      "unclear_or_low_no_aux_gate_incremental_removed_fraction": 0.33367875647668394
+    },
+    "stable_true_water": {
+      "objects": 2,
+      "pixels": 2915,
+      "shared_retained_fraction": 0.878902229845626,
+      "clear_low_no_aux_gate_retained_fraction": 0.878902229845626,
+      "clear_low_no_aux_gate_incremental_removed_fraction": 0.0,
+      "unclear_or_low_no_aux_gate_retained_fraction": 0.878902229845626,
+      "unclear_or_low_no_aux_gate_incremental_removed_fraction": 0.0
+    }
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_reviewed_objects\\20261010_140027_910896\\reviewed_object_retention.csv",
+  "limits": [
+    "These are 16 reused mechanism samples, not an independent or random accuracy sample.",
+    "Proxy labels are GIS interpretations rather than field truth.",
+    "Results assess upstream mask side effects only and do not establish volume accuracy.",
+    "No model output or production code is modified."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "experiment": "2024 land-use rejection temporal-evidence GIS review",
+  "targets": 15,
+  "pages": 5,
+  "selection": "Three spatially separated objects from each of five evidence strata: triple strong; previous/future model persistence without target SCL; previous-only operational; other support without previous; and no strong temporal support.",
+  "limits": [
+    "Samples are mechanism-stratified and cannot estimate population accuracy.",
+    "2025 support is retrospective evidence and cannot be used as a 2024 operational input.",
+    "Temporal model persistence can repeat systematic false positives and is not field truth.",
+    "Local SAR stretching is qualitative; no threshold is inferred from display brightness.",
+    "No object is restored and no DEM volume or production output is modified."
+  ]
+}

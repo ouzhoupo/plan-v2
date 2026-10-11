@@ -1,0 +1,70 @@
+{
+  "status": "complete",
+  "experiment": "Selective gate for unsupported new 2025 SAR coverage",
+  "fixed_2024_reference_area_km2": 207.6423,
+  "base_low_bin": 0.2,
+  "training_effect": {
+    "positive_before": 81176,
+    "positive_removed": 14245,
+    "positive_removed_fraction": 0.17548290135015276,
+    "negative_removed": 0
+  },
+  "validation": {
+    "shared_baseline_mismatch_pixels": 0
+  },
+  "variants": {
+    "clear_low_no_aux_gate": {
+      "gate_pixels": 52913620,
+      "gate_on_shared_water_pixels": 672978,
+      "water_pixels": 3465546,
+      "added_vs_shared_pixels": 0,
+      "removed_vs_shared_pixels": 682498,
+      "added_vs_current_pixels": 7131,
+      "removed_vs_current_pixels": 7562264,
+      "added_vs_common_bound_pixels": 1248757,
+      "removed_vs_common_bound_pixels": 7234,
+      "gate_km2": 5291.362,
+      "gate_on_shared_water_km2": 67.2978,
+      "water_km2": 346.5546,
+      "added_vs_shared_km2": 0.0,
+      "removed_vs_shared_km2": 68.2498,
+      "added_vs_current_km2": 0.7131,
+      "removed_vs_current_km2": 756.2264,
+      "added_vs_common_bound_km2": 124.8757,
+      "removed_vs_common_bound_km2": 0.7234,
+      "ratio_2025_to_2024_reference": 1.668998079871009,
+      "water_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095\\clear_low_no_aux_gate_c4_water_mask.tif",
+      "gate_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095\\clear_low_no_aux_gate_gate_mask.tif"
+    },
+    "unclear_or_low_no_aux_gate": {
+      "gate_pixels": 63137777,
+      "gate_on_shared_water_pixels": 1287475,
+      "water_pixels": 2852362,
+      "added_vs_shared_pixels": 0,
+      "removed_vs_shared_pixels": 1295682,
+      "added_vs_current_pixels": 7126,
+      "removed_vs_current_pixels": 8175443,
+      "added_vs_common_bound_pixels": 635590,
+      "removed_vs_common_bound_pixels": 7251,
+      "gate_km2": 6313.7777,
+      "gate_on_shared_water_km2": 128.7475,
+      "water_km2": 285.2362,
+      "added_vs_shared_km2": 0.0,
+      "removed_vs_shared_km2": 129.5682,
+      "added_vs_current_km2": 0.7126,
+      "removed_vs_current_km2": 817.5443,
+      "added_vs_common_bound_km2": 63.559,
+      "removed_vs_common_bound_km2": 0.7251,
+      "ratio_2025_to_2024_reference": 1.3736902355637555,
+      "water_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095\\unclear_or_low_no_aux_gate_c4_water_mask.tif",
+      "gate_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095\\unclear_or_low_no_aux_gate_gate_mask.tif"
+    }
+  },
+  "limits": [
+    "The 0.20 base-optical cut is a coarse mechanism bin, not a selected production threshold.",
+    "SCL and base probability share Sentinel-2 input; land-use and previous masks have known limitations.",
+    "The clear-only variant leaves optically unclear unsupported new coverage untouched; the inclusive variant gates it.",
+    "This is a 2025 Pihe upstream experiment only; no downstream object, volume, or cross-region result is produced.",
+    "No production code or production output is modified."
+  ]
+}

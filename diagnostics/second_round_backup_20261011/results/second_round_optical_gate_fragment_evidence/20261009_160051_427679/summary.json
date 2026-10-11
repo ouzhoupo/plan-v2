@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "objects": 42928,
+  "pixels": 307012,
+  "scl6_pixels": 26990,
+  "prob_ge_078_pixels": 145971,
+  "limits": [
+    "SCL shares optical input with probability: auxiliary evidence, not independent truth.",
+    "0.78 is a descriptive high-probability bin, not an adopted rescue threshold.",
+    "Fragment-level support does not prove the whole fragment is water.",
+    "No selection, restoration, or volume computation."
+  ]
+}

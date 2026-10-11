@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "experiment": "Hangbuhe dual-source secondary-rescue held-out GIS review",
+  "targets": 12,
+  "pages": 4,
+  "groups_after_exclusion": {
+    "dual_ge_025_future": 155,
+    "dual_ge_025_no_future": 222,
+    "dual_lt_025_future": 12,
+    "dual_lt_025_no_future": 64
+  },
+  "selection": "Three held-out objects near low, median, and high V75 rank per dual-source/future stratum.",
+  "purpose": "Review source_flag=3 coverage >=0.25 and the small excluded remainder among objects lacking second historical support.",
+  "limits": [
+    "Samples diagnose mechanisms and do not estimate population accuracy.",
+    "Future support is retrospective context rather than a selection input.",
+    "Source flags are model-side evidence and are not field truth.",
+    "No production output or parameter is changed."
+  ]
+}

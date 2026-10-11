@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "experiment": "Common-support retention on 16 fixed reviewed objects",
+  "current_component_count": 212357,
+  "reviewed_objects": 16,
+  "groups": {
+    "mixed_or_uncertain": {
+      "objects": 3,
+      "pixels": 3230,
+      "shared_sar_current_alpha_shared_sar_retained_fraction": 0.8080495356037152,
+      "shared_sar_current_alpha_common_support_retained_fraction": 0.6773993808049535,
+      "shared_sar_current_alpha_support_incremental_removed_fraction": 0.1306501547987616,
+      "shared_sar_shared_alpha_shared_sar_retained_fraction": 0.8086687306501548,
+      "shared_sar_shared_alpha_common_support_retained_fraction": 0.6820433436532508,
+      "shared_sar_shared_alpha_support_incremental_removed_fraction": 0.12662538699690404,
+      "shared_sar_alpha_035_shared_sar_retained_fraction": 0.8052631578947368,
+      "shared_sar_alpha_035_common_support_retained_fraction": 0.708359133126935,
+      "shared_sar_alpha_035_support_incremental_removed_fraction": 0.09690402476780186,
+      "shared_sar_base_only_bound_shared_sar_retained_fraction": 0.8024767801857585,
+      "shared_sar_base_only_bound_common_support_retained_fraction": 0.7421052631578947,
+      "shared_sar_base_only_bound_support_incremental_removed_fraction": 0.06037151702786378
+    },
+    "reviewed_nonwater": {
+      "objects": 10,
+      "pixels": 258312,
+      "shared_sar_current_alpha_shared_sar_retained_fraction": 0.4657081358976741,
+      "shared_sar_current_alpha_common_support_retained_fraction": 0.07476617423890489,
+      "shared_sar_current_alpha_support_incremental_removed_fraction": 0.39094196165876927,
+      "shared_sar_shared_alpha_shared_sar_retained_fraction": 0.33537737309919785,
+      "shared_sar_shared_alpha_common_support_retained_fraction": 0.05774412338567314,
+      "shared_sar_shared_alpha_support_incremental_removed_fraction": 0.2776332497135247,
+      "shared_sar_alpha_035_shared_sar_retained_fraction": 0.20650608566384837,
+      "shared_sar_alpha_035_common_support_retained_fraction": 0.0421389637337793,
+      "shared_sar_alpha_035_support_incremental_removed_fraction": 0.16436712193006905,
+      "shared_sar_base_only_bound_shared_sar_retained_fraction": 0.17555901390566447,
+      "shared_sar_base_only_bound_common_support_retained_fraction": 0.03898773576140481,
+      "shared_sar_base_only_bound_support_incremental_removed_fraction": 0.13657127814425965
+    },
+    "true_water_non_target": {
+      "objects": 1,
+      "pixels": 4825,
+      "shared_sar_current_alpha_shared_sar_retained_fraction": 0.8644559585492227,
+      "shared_sar_current_alpha_common_support_retained_fraction": 0.18487046632124352,
+      "shared_sar_current_alpha_support_incremental_removed_fraction": 0.6795854922279793,
+      "shared_sar_shared_alpha_shared_sar_retained_fraction": 0.8632124352331606,
+      "shared_sar_shared_alpha_common_support_retained_fraction": 0.1877720207253886,
+      "shared_sar_shared_alpha_support_incremental_removed_fraction": 0.675440414507772,
+      "shared_sar_alpha_035_shared_sar_retained_fraction": 0.863419689119171,
+      "shared_sar_alpha_035_common_support_retained_fraction": 0.19357512953367875,
+      "shared_sar_alpha_035_support_incremental_removed_fraction": 0.6698445595854923,
+      "shared_sar_base_only_bound_shared_sar_retained_fraction": 0.863419689119171,
+      "shared_sar_base_only_bound_common_support_retained_fraction": 0.2049740932642487,
+      "shared_sar_base_only_bound_support_incremental_removed_fraction": 0.6584455958549222
+    },
+    "stable_true_water": {
+      "objects": 2,
+      "pixels": 2915,
+      "shared_sar_current_alpha_shared_sar_retained_fraction": 0.8957118353344768,
+      "shared_sar_current_alpha_common_support_retained_fraction": 0.8957118353344768,
+      "shared_sar_current_alpha_support_incremental_removed_fraction": 0.0,
+      "shared_sar_shared_alpha_shared_sar_retained_fraction": 0.878902229845626,
+      "shared_sar_shared_alpha_common_support_retained_fraction": 0.878902229845626,
+      "shared_sar_shared_alpha_support_incremental_removed_fraction": 0.0,
+      "shared_sar_alpha_035_shared_sar_retained_fraction": 0.8552315608919383,
+      "shared_sar_alpha_035_common_support_retained_fraction": 0.8552315608919383,
+      "shared_sar_alpha_035_support_incremental_removed_fraction": 0.0,
+      "shared_sar_base_only_bound_shared_sar_retained_fraction": 0.8267581475128645,
+      "shared_sar_base_only_bound_common_support_retained_fraction": 0.8267581475128645,
+      "shared_sar_base_only_bound_support_incremental_removed_fraction": 0.0
+    }
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\common_support_reviewed_objects\\20261010_000900_422860\\reviewed_object_retention.csv",
+  "limits": [
+    "The 16 objects are fixed mechanism samples, not a random accuracy sample.",
+    "Proxy labels come from prior GIS interpretation and are not field truth.",
+    "Stable linear river/canal is a true-water control but not a target pond object.",
+    "Retention describes upstream masks only and does not estimate final volume accuracy.",
+    "No threshold, mask, object, production code or production output is modified."
+  ]
+}

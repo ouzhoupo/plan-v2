@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "experiment": "Second-round 2024-06 complete pre-deduction component audit",
+  "date": "2024-06-01",
+  "connectivity": 4,
+  "pixel_area_m2": 100.0,
+  "validations": {
+    "component_pixels_match_pre_deduction": true,
+    "component_removed_pixels_match_group_union": true
+  },
+  "all_components": {
+    "objects": 54926,
+    "area_km2": 207.7158
+  },
+  "components_touched_by_deduction": {
+    "objects": 4526,
+    "fully_removed_objects": 2859,
+    "partially_removed_objects": 1667,
+    "removed_area_km2": 81.7504
+  },
+  "fully_removed_reservoir_target_range": {
+    "objects": 729,
+    "original_component_area_km2": 2.6311
+  },
+  "outputs": {
+    "all_components_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_pre_deduction_components\\20260926_212547_194707\\all_pre_deduction_components.csv",
+    "candidate_scope_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_pre_deduction_components\\20260926_212547_194707\\fully_removed_reservoir_target_range.csv",
+    "group_summary_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_pre_deduction_components\\20260926_212547_194707\\component_group_summary.csv"
+  },
+  "limits": [
+    "These are complete connected C4 water components before deduction, not verified ponds.",
+    "Area-range membership does not establish target class or justify rescue.",
+    "Bounding-box shape measures are screening descriptors, not final object geometry metrics.",
+    "No mask is changed and no DEM volume is calculated."
+  ]
+}

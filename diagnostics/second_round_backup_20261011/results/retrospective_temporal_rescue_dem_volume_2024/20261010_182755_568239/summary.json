@@ -1,0 +1,167 @@
+{
+  "status": "complete",
+  "experiment": "2024 retrospective temporal rescue DEM capacity upper bound",
+  "region": "pihe",
+  "source_materialized": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_landuse_rescue_candidates_2024\\20261010_181232_993446",
+  "source_reused_triple_dem": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_rescue_dem_volume_2024\\20261010_182317_438951",
+  "processing": {
+    "newly_processed_retrospective_exclusive_objects": 11472,
+    "reused_triple_objects": 1209,
+    "branches_are_not_added_twice": true
+  },
+  "triple_reused_metrics": {
+    "object_count": 1209,
+    "area_m2": 6601500.0,
+    "area_km2": 6.6015,
+    "qa_counts": {
+      "OK": 1194,
+      "NO_DEM_ON_BOUNDARY": 15
+    },
+    "missing_v75": 15,
+    "v05_m3": 207595.0,
+    "v50_m3": 2950225.0,
+    "v75_m3": 6020225.0,
+    "v95_m3": 12875602.5,
+    "vmean_m3": 3233285.15,
+    "equivalent_depth_v75_div_area": 0.9119480421116413
+  },
+  "retrospective_exclusive_metrics": {
+    "object_count": 11472,
+    "area_m2": 54851500.0,
+    "area_km2": 54.8515,
+    "qa_counts": {
+      "OK": 11460,
+      "NO_DEM_ON_BOUNDARY": 12
+    },
+    "missing_v75": 12,
+    "v05_m3": 896946.25,
+    "v50_m3": 21369075.0,
+    "v75_m3": 47142650.0,
+    "v95_m3": 93033090.0,
+    "vmean_m3": 23815397.125,
+    "equivalent_depth_v75_div_area": 0.8594596319152621
+  },
+  "retrospective_full_metrics": {
+    "object_count": 12681,
+    "area_m2": 61453000.0,
+    "area_km2": 61.453,
+    "qa_counts": {
+      "OK": 12654,
+      "NO_DEM_ON_BOUNDARY": 27
+    },
+    "missing_v75": 27,
+    "v05_m3": 1104541.25,
+    "v50_m3": 24319300.0,
+    "v75_m3": 53162875.0,
+    "v95_m3": 105908692.5,
+    "vmean_m3": 27048682.275,
+    "equivalent_depth_v75_div_area": 0.8650981237693848
+  },
+  "evaluation": {
+    "current_paired_candidate": {
+      "model_wan_m3": {
+        "2024-06-01": 2228.14375,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14829.85625,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 20573.66875,
+      "mape_percent": 74.77376103226393,
+      "model_2025_to_2024_ratio": 1.5394821361952071,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 1.0516919903963748,
+      "direction_matches_manual": false
+    },
+    "baseline_plus_retrospective_upper_bound": {
+      "model_wan_m3": {
+        "2024-06-01": 7544.431250000001,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 9513.568749999999,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 15257.381249999999,
+      "mape_percent": 59.19078676798911,
+      "model_2025_to_2024_ratio": 0.4546648231435603,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 0.16794887820271073,
+      "direction_matches_manual": true,
+      "total_absolute_error_reduction_vs_current_wan_m3": 5316.287500000002,
+      "trend_log_error_reduction_vs_current": 0.8837431121936641
+    }
+  },
+  "reviewed_proxy_objects_in_scope": [
+    {
+      "object_id": "17709",
+      "review_group": "triple_strong",
+      "proxy_label": "coherent_large_water_body",
+      "target_scope_interpretation": "uncertain_large_or_non_target_water",
+      "confidence": "strong",
+      "notes": "Across-date coherent reservoir-like water; real water evidence is strong, but inclusion in the manual pond scope is unresolved."
+    },
+    {
+      "object_id": "10732",
+      "review_group": "triple_strong",
+      "proxy_label": "probable_seasonal_small_water",
+      "target_scope_interpretation": "possible_target",
+      "confidence": "moderate",
+      "notes": "Water-like in 2024-05 and less distinct in 2024-06; 2025 appears shallow or dry."
+    },
+    {
+      "object_id": "10918",
+      "review_group": "triple_strong",
+      "proxy_label": "possible_small_water",
+      "target_scope_interpretation": "possible_target",
+      "confidence": "low",
+      "notes": "Tiny dark patch with strong temporal-mask support; optical resolution limits identification."
+    },
+    {
+      "object_id": "14029",
+      "review_group": "model_persistent_no_target_scl",
+      "proxy_label": "probable_aquaculture_or_pond_complex",
+      "target_scope_interpretation": "uncertain_target",
+      "confidence": "strong",
+      "notes": "Persistent water-like complex near the upper area limit; target membership is unresolved."
+    },
+    {
+      "object_id": "17107",
+      "review_group": "model_persistent_no_target_scl",
+      "proxy_label": "linear_water_in_transport_corridor",
+      "target_scope_interpretation": "probable_non_target",
+      "confidence": "strong",
+      "notes": "Water-like feature in a divided-road or linear drainage corridor; likely outside pond survey scope."
+    },
+    {
+      "object_id": "11648",
+      "review_group": "model_persistent_no_target_scl",
+      "proxy_label": "probable_small_rectangular_pond",
+      "target_scope_interpretation": "possible_target",
+      "confidence": "moderate",
+      "notes": "Small dark rectangular feature persists across dates and is plausible pond water."
+    }
+  ],
+  "outputs": {
+    "exclusive_gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\retrospective_temporal_rescue_dem_volume_2024\\20261010_182755_568239\\retrospective_exclusive_objects_with_volume.gpkg",
+    "exclusive_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\retrospective_temporal_rescue_dem_volume_2024\\20261010_182755_568239\\retrospective_exclusive_objects_with_volume.csv"
+  },
+  "limits": [
+    "2025 support is unavailable in 2024 and this branch is prohibited as a production rule.",
+    "The result tests stage capacity, not achievable operational accuracy.",
+    "Temporal persistence can repeat systematic false positives and include non-target real water.",
+    "Only six reviewed proxy objects fall in this 12681-object branch.",
+    "Manual survey spatial-scope equivalence remains unresolved.",
+    "Only Pihe is tested; no whole-Pishihang inference is made.",
+    "Production code, masks, and formal outputs remain unchanged."
+  ]
+}

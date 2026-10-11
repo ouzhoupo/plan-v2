@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "experiment": "shihe temporal-shape candidate exact V75",
+  "region": "shihe",
+  "selection": "previous support >=0.25, area 0.2-5 ha, bbox fill >=0.45, elongation <=3",
+  "candidate": {
+    "object_count": 17882,
+    "area_m2": 111031900.0,
+    "area_km2": 111.0319,
+    "volume": {
+      "object_count": 17882,
+      "area_m2": 111031900.0,
+      "area_km2": 111.0319,
+      "qa_counts": {
+        "NO_DEM_ON_BOUNDARY": 1,
+        "OK": 17881
+      },
+      "missing_v75": 1,
+      "v05_m3": 1572022.5,
+      "v50_m3": 46037225.0,
+      "v75_m3": 100452587.5,
+      "v95_m3": 190810643.75,
+      "vmean_m3": 49683734.85,
+      "equivalent_depth_v75_div_area": 0.9047182611483727
+    },
+    "increment_v75_wan_m3": 10045.25875
+  },
+  "trend_budget": {
+    "exact_match_increment_wan_m3": 44420.05215780998,
+    "direction_flip_increment_wan_m3": 420.1012499999997,
+    "candidate_fraction_of_exact_match": 0.22614243482453528,
+    "candidate_fraction_of_direction_flip": 23.911518354206297,
+    "guardrail_result": "direction_matches_but_ratio_remains_too_high"
+  },
+  "evaluation": {
+    "source_total": {
+      "before": {
+        "model_wan_m3": {
+          "2024-06-01": 9037.01375,
+          "2025-05-21": 9457.115
+        },
+        "manual_wan_m3": {
+          "2024-06-01": 14041.0,
+          "2025-05-21": 2484.0
+        },
+        "model_ratio_2025_to_2024": 1.0464867335185808,
+        "manual_ratio_2025_to_2024": 0.17691047646179048,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "direction_matches_manual": false,
+        "trend_log_error": 1.7775500428839581,
+        "absolute_error_wan_m3": {
+          "2024-06-01": 5003.98625,
+          "2025-05-21": 6973.115
+        },
+        "total_absolute_error_wan_m3": 11977.10125,
+        "mape_percent": 158.1798025703653
+      },
+      "after": {
+        "model_wan_m3": {
+          "2024-06-01": 19082.2725,
+          "2025-05-21": 9457.115
+        },
+        "manual_wan_m3": {
+          "2024-06-01": 14041.0,
+          "2025-05-21": 2484.0
+        },
+        "model_ratio_2025_to_2024": 0.4955968949714978,
+        "manual_ratio_2025_to_2024": 0.17691047646179048,
+        "model_direction": "decrease",
+        "manual_direction": "decrease",
+        "direction_matches_manual": true,
+        "trend_log_error": 1.0301190626238144,
+        "absolute_error_wan_m3": {
+          "2024-06-01": 5041.272499999999,
+          "2025-05-21": 6973.115
+        },
+        "total_absolute_error_wan_m3": 12014.387499999999,
+        "mape_percent": 158.31257890395977,
+        "trend_log_error_reduction": 0.7474309802601438,
+        "total_absolute_error_reduction_wan_m3": -37.2862499999992
+      }
+    },
+    "component_sum": {
+      "before": {
+        "model_wan_m3": {
+          "2024-06-01": 9037.01375,
+          "2025-05-21": 9457.115
+        },
+        "manual_wan_m3": {
+          "2024-06-01": 11929.0,
+          "2025-05-21": 2484.0
+        },
+        "model_ratio_2025_to_2024": 1.0464867335185808,
+        "manual_ratio_2025_to_2024": 0.20823203956744069,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "direction_matches_manual": false,
+        "trend_log_error": 1.6145408320512618,
+        "absolute_error_wan_m3": {
+          "2024-06-01": 2891.98625,
+          "2025-05-21": 6973.115
+        },
+        "total_absolute_error_wan_m3": 9865.10125,
+        "mape_percent": 152.48227043555747
+      },
+      "after": {
+        "model_wan_m3": {
+          "2024-06-01": 19082.2725,
+          "2025-05-21": 9457.115
+        },
+        "manual_wan_m3": {
+          "2024-06-01": 11929.0,
+          "2025-05-21": 2484.0
+        },
+        "model_ratio_2025_to_2024": 0.4955968949714978,
+        "manual_ratio_2025_to_2024": 0.20823203956744069,
+        "model_direction": "decrease",
+        "manual_direction": "decrease",
+        "direction_matches_manual": true,
+        "trend_log_error": 0.867109851791118,
+        "absolute_error_wan_m3": {
+          "2024-06-01": 7153.272499999999,
+          "2025-05-21": 6973.115
+        },
+        "total_absolute_error_wan_m3": 14126.387499999999,
+        "mape_percent": 170.34330761386244,
+        "trend_log_error_reduction": 0.7474309802601438,
+        "total_absolute_error_reduction_wan_m3": -4261.286249999999
+      }
+    }
+  },
+  "outputs": {
+    "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shihe_temporal_shape_dem_volume\\20261010_203830_787211\\shihe_candidates_with_volume.gpkg",
+    "csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shihe_temporal_shape_dem_volume\\20261010_203830_787211\\shihe_candidates_with_volume.csv"
+  },
+  "interpretation": [
+    "Candidate selection uses only information available by the 2024 target date.",
+    "Trend improvement, magnitude overshoot, and direction reversal are evaluated separately.",
+    "The manual target is used only for evaluation and never to select objects or tune thresholds."
+  ],
+  "limits": [
+    "Manual totals are regional aggregates rather than object labels.",
+    "Historical model support may preserve stable false positives.",
+    "The candidate is an experimental full branch and not a production correction.",
+    "No production code, masks, parameters, or formal outputs are changed."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "status": "complete",
+  "experiment": "Operational previous-date plus morphology candidate audit",
+  "region": "pihe",
+  "previous_strong_scope": {
+    "objects": 18426,
+    "area_m2": 81599200.0
+  },
+  "retrospective_evaluation_reference": {
+    "objects": 12681,
+    "area_m2": 61453000.0,
+    "v75_m3": 53162875.0
+  },
+  "branches": {
+    "compact_02_5ha": {
+      "selected": {
+        "objects": 6565,
+        "area_m2": 36360000.0,
+        "area_km2": 36.36
+      },
+      "future_persistent_proxy": {
+        "objects": 5086,
+        "area_m2": 28545800.0,
+        "area_km2": 28.5458,
+        "object_fraction_of_selected": 0.7747143945163747,
+        "area_fraction_of_selected": 0.78508800880088,
+        "recall_of_retrospective_objects": 0.401072470625345,
+        "recall_of_retrospective_area": 0.4645143442956406,
+        "retained_retrospective_v75_m3": 24442550.0,
+        "retained_retrospective_v75_wan_m3": 2444.255,
+        "recall_of_retrospective_v75": 0.4597672718038669
+      },
+      "without_future_support": {
+        "objects": 1479,
+        "area_m2": 7814200.0,
+        "area_km2": 7.8142
+      }
+    },
+    "compact_02_5ha_strict": {
+      "selected": {
+        "objects": 4419,
+        "area_m2": 22197100.0,
+        "area_km2": 22.1971
+      },
+      "future_persistent_proxy": {
+        "objects": 3563,
+        "area_m2": 18303600.0,
+        "area_km2": 18.3036,
+        "object_fraction_of_selected": 0.8062910160669835,
+        "area_fraction_of_selected": 0.8245942037473364,
+        "recall_of_retrospective_objects": 0.2809715322135478,
+        "recall_of_retrospective_area": 0.2978471352090215,
+        "retained_retrospective_v75_m3": 15414125.0,
+        "retained_retrospective_v75_wan_m3": 1541.4125,
+        "recall_of_retrospective_v75": 0.28994152404285883
+      },
+      "without_future_support": {
+        "objects": 856,
+        "area_m2": 3893500.0,
+        "area_km2": 3.8935
+      }
+    }
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_shape_candidate\\20261010_184856_285062\\previous_strong_shape_candidates.csv",
+  "interpretation": [
+    "Selection uses only previous-date persistence, area, bbox fill, and elongation.",
+    "Future persistence is an evaluation proxy, not a selection input or field truth.",
+    "The two morphology variants are exploratory sensitivity bounds, not final thresholds."
+  ],
+  "next_step": "Review selected objects without future support and future-persistent objects rejected by shape before any DEM propagation.",
+  "limits": [
+    "Future absence can represent real drying and is not proof of a false positive.",
+    "Future persistence can repeat systematic errors and is not proof of a true pond.",
+    "Object shape does not establish manual survey membership.",
+    "No mask, DEM volume, production parameter, or formal output is changed."
+  ]
+}

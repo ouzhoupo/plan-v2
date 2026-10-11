@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "experiment": "Second-round reservoir-affected component feature audit",
+  "scope": "2024-06 pre-deduction components of 500-500000 m2 that are either fully removed with reservoir involvement or partially removed with a reservoir-dominant deduction group",
+  "scope_objects": 1483,
+  "scope_original_area_km2": 16.5358,
+  "scope_removed_area_km2": 13.0221,
+  "visual_labels_joined": 18,
+  "validations": {
+    "all_18_reservoir_visual_labels_joined": true,
+    "all_scoped_components_have_finite_probability": true
+  },
+  "outputs": {
+    "features_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_reservoir_component_features\\20260928_152002_125810\\reservoir_affected_component_features.csv",
+    "labeled_features_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_reservoir_component_features\\20260928_152002_125810\\labeled_component_features.csv",
+    "label_summary_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_reservoir_component_features\\20260928_152002_125810\\visual_label_summary.csv"
+  },
+  "limits": [
+    "The 18 visual labels in this scope are proxy evidence, not field truth.",
+    "The review sample is stratified and cannot estimate population accuracy.",
+    "No threshold is selected and no candidate is restored in this experiment.",
+    "Source flags describe upstream evidence paths and are not land-cover classes."
+  ]
+}

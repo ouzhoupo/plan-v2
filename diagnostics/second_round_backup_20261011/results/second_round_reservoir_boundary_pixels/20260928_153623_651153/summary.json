@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "objects": 20,
+  "pixel_area_m2": 100.0,
+  "totals": {
+    "object_pixels": 7202,
+    "observed_removed_pixels": 6091,
+    "center_removed_pixels": 5911,
+    "all_touched_removed_pixels": 6091,
+    "observed_vs_center_mismatch": 180,
+    "observed_vs_all_touched_mismatch": 0,
+    "observed_removed_outside_center_pixels": 180,
+    "observed_removed_outside_center_m2": 18000.0
+  },
+  "limits": [
+    "Only 20 reviewed objects; no population extrapolation.",
+    "Center inclusion is a sensitivity comparison, not ground truth.",
+    "Outside-center pixels may still overlap reservoir geometry.",
+    "No object restored and no storage computed."
+  ]
+}

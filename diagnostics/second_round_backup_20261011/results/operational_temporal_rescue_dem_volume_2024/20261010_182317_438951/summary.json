@@ -1,0 +1,170 @@
+{
+  "status": "complete",
+  "experiment": "2024 operational temporal land-use rescue DEM capacity",
+  "region": "pihe",
+  "source_materialized": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_landuse_rescue_candidates_2024\\20261010_181232_993446",
+  "branches": {
+    "triple_strong": {
+      "metrics": {
+        "object_count": 1209,
+        "area_m2": 6601500.0,
+        "area_km2": 6.6015,
+        "qa_counts": {
+          "OK": 1194,
+          "NO_DEM_ON_BOUNDARY": 15
+        },
+        "missing_v75": 15,
+        "v05_m3": 207595.0,
+        "v50_m3": 2950225.0,
+        "v75_m3": 6020225.0,
+        "v95_m3": 12875602.5,
+        "vmean_m3": 3233285.15,
+        "equivalent_depth_v75_div_area": 0.9119480421116413
+      },
+      "proxy_review_volume": {
+        "coherent_large_water_body": {
+          "objects": 1,
+          "area_m2": 375200.0,
+          "v75_m3": 380075.0,
+          "v75_wan_m3": 38.0075
+        },
+        "probable_seasonal_small_water": {
+          "objects": 1,
+          "area_m2": 4800.0,
+          "v75_m3": 2250.0,
+          "v75_wan_m3": 0.225
+        },
+        "possible_small_water": {
+          "objects": 1,
+          "area_m2": 1600.0,
+          "v75_m3": 1450.0,
+          "v75_wan_m3": 0.145
+        }
+      }
+    },
+    "operational_previous_and_target_scl": {
+      "metrics": {
+        "object_count": 1417,
+        "area_m2": 7341400.0,
+        "area_km2": 7.3414,
+        "qa_counts": {
+          "OK": 1401,
+          "NO_DEM_ON_BOUNDARY": 16
+        },
+        "missing_v75": 16,
+        "v05_m3": 218890.0,
+        "v50_m3": 3236250.0,
+        "v75_m3": 6650400.0,
+        "v95_m3": 14090137.5,
+        "vmean_m3": 3546633.75,
+        "equivalent_depth_v75_div_area": 0.905876263383006
+      },
+      "exclusive_of_triple": {
+        "object_count": 208,
+        "area_m2": 739900.0,
+        "v75_m3": 630175.0
+      },
+      "proxy_review_volume": {
+        "coherent_large_water_body": {
+          "objects": 1,
+          "area_m2": 375200.0,
+          "v75_m3": 380075.0,
+          "v75_wan_m3": 38.0075
+        },
+        "probable_seasonal_small_water": {
+          "objects": 1,
+          "area_m2": 4800.0,
+          "v75_m3": 2250.0,
+          "v75_wan_m3": 0.225
+        },
+        "possible_small_water": {
+          "objects": 1,
+          "area_m2": 1600.0,
+          "v75_m3": 1450.0,
+          "v75_wan_m3": 0.145
+        }
+      }
+    }
+  },
+  "variant_evaluation": {
+    "current_paired_candidate": {
+      "model_wan_m3": {
+        "2024-06-01": 2228.14375,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14829.85625,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 20573.66875,
+      "mape_percent": 74.77376103226393,
+      "model_2025_to_2024_ratio": 1.5394821361952071,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 1.0516919903963748,
+      "direction_matches_manual": false,
+      "total_absolute_error_reduction_vs_current_wan_m3": 0.0,
+      "trend_log_error_reduction_vs_current": 0.0
+    },
+    "baseline_plus_triple_strong": {
+      "model_wan_m3": {
+        "2024-06-01": 2830.16625,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14227.83375,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 19971.646249999998,
+      "mape_percent": 73.00912713614483,
+      "model_2025_to_2024_ratio": 1.2120091885061521,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 0.8125253746160256,
+      "direction_matches_manual": false,
+      "total_absolute_error_reduction_vs_current_wan_m3": 602.0225000000028,
+      "trend_log_error_reduction_vs_current": 0.23916661578034926
+    },
+    "baseline_plus_operational": {
+      "model_wan_m3": {
+        "2024-06-01": 2893.18375,
+        "2025-05-21": 3430.1875
+      },
+      "manual_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14164.81625,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 19908.62875,
+      "mape_percent": 72.82441175333324,
+      "model_2025_to_2024_ratio": 1.1856099703311274,
+      "manual_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 0.7905032907698185,
+      "direction_matches_manual": false,
+      "total_absolute_error_reduction_vs_current_wan_m3": 665.0400000000009,
+      "trend_log_error_reduction_vs_current": 0.26118869962655633
+    }
+  },
+  "outputs": {
+    "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_rescue_dem_volume_2024\\20261010_182317_438951\\operational_candidates_with_volume.gpkg",
+    "csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\operational_temporal_rescue_dem_volume_2024\\20261010_182317_438951\\operational_candidates_with_volume.csv"
+  },
+  "next_decision": "Use exact operational capacity and side effects to decide whether the much larger retrospective branch is worth a separate diagnostic DEM run.",
+  "limits": [
+    "The 0.25 evidence fraction is a coarse diagnostic bin, not a fitted threshold.",
+    "Previous-date model water and target-date SCL share optical/systematic errors and are not field truth.",
+    "The three reviewed objects cannot estimate accuracy for all 1417 candidates.",
+    "Manual survey spatial-scope equivalence remains unresolved.",
+    "Only Pihe is tested; Shihe and Hangbuhe remain untested.",
+    "Production code, production masks, and formal model outputs are unchanged."
+  ]
+}

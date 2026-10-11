@@ -1,0 +1,21 @@
+{
+  "status": "complete_no_direction_match",
+  "experiment": "Existing correction trend-qualification audit",
+  "manual_2024_wan_m3": 17058.0,
+  "manual_2025_scenarios_wan_m3": {
+    "source_total_9174": 9174.0,
+    "component_sum_9767": 9767.0
+  },
+  "evaluated_rows": 13,
+  "direction_matching_rows": [],
+  "best_existing_ratio_row_by_9174_log_error": "P1_plus_P2_diagnostic_upper_bound",
+  "best_existing_ratio": 2.3994230966630257,
+  "best_existing_additional_2024_needed_for_flat_wan_m3": 4550.099999999999,
+  "limits": [
+    "Rows from different baselines are not additive and are not a proposed combined model.",
+    "Diagnostic upper bounds and rejected candidates are retained only to measure capacity.",
+    "Direction agreement is a necessary entry gate, not sufficient evidence for adoption.",
+    "No numerical tolerance for 'approximately matching' is selected in this audit.",
+    "No masks, objects, DEM volumes, or production outputs are modified."
+  ]
+}

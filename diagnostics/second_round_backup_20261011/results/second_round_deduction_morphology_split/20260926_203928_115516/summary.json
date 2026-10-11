@@ -1,0 +1,129 @@
+{
+  "status": "complete",
+  "experiment": "Second-round 2024-06 C4 deduction and morphology split",
+  "date": "2024-06-01",
+  "source_c4_water_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\combined_upstream_c0_c4\\20260922_180153_112712\\2024-06-01\\c4_water_mask.tif",
+  "frozen_downstream_reference": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\combined_downstream_c0_c4\\20260922_185751_785910\\2024-06-01\\c4_post_deduct_morph.tif",
+  "configuration": {
+    "deduction_layers": 11,
+    "close_radius_px": 1,
+    "open_radius_px": 0,
+    "fill_holes": false,
+    "all_touched": true
+  },
+  "validations": {
+    "frozen_reproduction_exact": true,
+    "deduction_has_no_added_pixels": true,
+    "deduction_union_matches_frozen_summary": true,
+    "final_candidate_matches_frozen_summary": true,
+    "stage_accounting_closes": true
+  },
+  "stage_accounting": {
+    "pre_deduction": {
+      "pixels": 2077158,
+      "area_km2": 207.7158
+    },
+    "deduction_removed": {
+      "pixels": 817504,
+      "area_km2": 81.7504
+    },
+    "post_deduction": {
+      "pixels": 1259654,
+      "area_km2": 125.9654
+    },
+    "morphology_added": {
+      "pixels": 74207,
+      "area_km2": 7.4207
+    },
+    "morphology_removed": {
+      "pixels": 10136,
+      "area_km2": 1.0136
+    },
+    "post_deduction_and_morphology": {
+      "pixels": 1323725,
+      "area_km2": 132.3725
+    },
+    "net_pre_to_final_loss": {
+      "pixels": 753433,
+      "area_km2": 75.3433
+    }
+  },
+  "deduction_change": {
+    "pixel_area_m2": 100.0,
+    "baseline_pixels": 2077158,
+    "experiment_pixels": 1259654,
+    "added_pixels": 0,
+    "removed_pixels": 817504,
+    "baseline_area_m2": 207715800.0,
+    "experiment_area_m2": 125965400.0,
+    "added_area_m2": 0.0,
+    "removed_area_m2": 81750400.0,
+    "baseline_area_km2": 207.7158,
+    "experiment_area_km2": 125.9654,
+    "added_area_km2": 0.0,
+    "removed_area_km2": 81.7504,
+    "change_codes": {
+      "0": "unchanged",
+      "1": "added",
+      "2": "removed"
+    },
+    "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\deduction_change.tif"
+  },
+  "morphology_change": {
+    "pixel_area_m2": 100.0,
+    "baseline_pixels": 1259654,
+    "experiment_pixels": 1323725,
+    "added_pixels": 74207,
+    "removed_pixels": 10136,
+    "baseline_area_m2": 125965400.0,
+    "experiment_area_m2": 132372500.0,
+    "added_area_m2": 7420700.0,
+    "removed_area_m2": 1013600.0,
+    "baseline_area_km2": 125.9654,
+    "experiment_area_km2": 132.3725,
+    "added_area_km2": 7.4207,
+    "removed_area_km2": 1.0136,
+    "change_codes": {
+      "0": "unchanged",
+      "1": "added",
+      "2": "removed"
+    },
+    "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\morphology_change.tif"
+  },
+  "frozen_reproduction": {
+    "pixel_area_m2": 100.0,
+    "baseline_pixels": 1323725,
+    "experiment_pixels": 1323725,
+    "added_pixels": 0,
+    "removed_pixels": 0,
+    "baseline_area_m2": 132372500.0,
+    "experiment_area_m2": 132372500.0,
+    "added_area_m2": 0.0,
+    "removed_area_m2": 0.0,
+    "baseline_area_km2": 132.3725,
+    "experiment_area_km2": 132.3725,
+    "added_area_km2": 0.0,
+    "removed_area_km2": 0.0,
+    "change_codes": {
+      "0": "unchanged",
+      "1": "added",
+      "2": "removed"
+    },
+    "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\frozen_reproduction_change.tif"
+  },
+  "outputs": {
+    "pre_deduction_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\c4_pre_deduction_no_morph.tif",
+    "post_deduction_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\c4_post_deduction_no_morph.tif",
+    "reproduced_final_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\c4_post_deduction_with_morph.tif",
+    "deduction_change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\deduction_change.tif",
+    "morphology_change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\morphology_change.tif",
+    "stage_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\stage_accounting.csv",
+    "layer_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_deduction_morphology_split\\20260926_203928_115516\\deduction_layers_raw_overlap.csv"
+  },
+  "interpretation_limits": [
+    "Removed area is a processing-stage quantity, not a confirmed error contribution.",
+    "Raw per-layer overlap areas can overlap and must not be added together.",
+    "This experiment does not restore objects, run object gates, or calculate DEM volume.",
+    "Spatial review is required before any deduction rule is relaxed."
+  ]
+}

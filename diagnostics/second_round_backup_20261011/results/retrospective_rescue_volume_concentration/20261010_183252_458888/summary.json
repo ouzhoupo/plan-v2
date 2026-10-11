@@ -1,0 +1,155 @@
+{
+  "status": "complete",
+  "experiment": "Retrospective rescue volume concentration and shape audit",
+  "region": "pihe",
+  "checks": {
+    "objects": 12681,
+    "total_v75_m3": 53162875.0,
+    "expected_v75_m3": 53162875.0,
+    "volume_difference_m3": 0.0
+  },
+  "trend_budget": {
+    "current_2024_wan_m3": 2228.14375,
+    "fixed_2025_candidate_wan_m3": 3430.1875,
+    "manual_ratio": 0.5378121702427013,
+    "2024_needed_for_exact_manual_ratio_wan_m3": 6378.039936232833,
+    "required_rescue_increment_wan_m3": 4149.896186232832,
+    "full_retrospective_increment_wan_m3": 5316.2875,
+    "fraction_of_full_increment_needed": 0.7806004070007184
+  },
+  "v75_concentration": {
+    "top_10": {
+      "objects": 10,
+      "v75_m3": 2799150.0,
+      "v75_wan_m3": 279.915,
+      "fraction_of_total_v75": 0.052652344328631584
+    },
+    "top_50": {
+      "objects": 50,
+      "v75_m3": 7569575.0,
+      "v75_wan_m3": 756.9575,
+      "fraction_of_total_v75": 0.14238460579868942
+    },
+    "top_100": {
+      "objects": 100,
+      "v75_m3": 10951200.0,
+      "v75_wan_m3": 1095.12,
+      "fraction_of_total_v75": 0.20599337413561625
+    },
+    "top_500": {
+      "objects": 500,
+      "v75_m3": 22662225.0,
+      "v75_wan_m3": 2266.2225,
+      "fraction_of_total_v75": 0.42627914686705715
+    },
+    "top_1000": {
+      "objects": 1000,
+      "v75_m3": 29525925.0,
+      "v75_wan_m3": 2952.5925,
+      "fraction_of_total_v75": 0.5553861599847638
+    }
+  },
+  "by_area_bin": {
+    "005_02ha": {
+      "objects": 5865,
+      "area_m2": 6329300.0,
+      "v75_m3": 4305900.0,
+      "area_km2": 6.3293,
+      "v75_wan_m3": 430.59,
+      "fraction_of_total_v75": 0.08099449098642615
+    },
+    "02_1ha": {
+      "objects": 5711,
+      "area_m2": 24786000.0,
+      "v75_m3": 21392975.0,
+      "area_km2": 24.786,
+      "v75_wan_m3": 2139.2975,
+      "fraction_of_total_v75": 0.4024044034488353
+    },
+    "1_5ha": {
+      "objects": 989,
+      "area_m2": 18190600.0,
+      "v75_m3": 17527425.0,
+      "area_km2": 18.1906,
+      "v75_wan_m3": 1752.7425,
+      "fraction_of_total_v75": 0.32969294832154955
+    },
+    "5_20ha": {
+      "objects": 106,
+      "area_m2": 9219300.0,
+      "v75_m3": 7557200.0,
+      "area_km2": 9.2193,
+      "v75_wan_m3": 755.72,
+      "fraction_of_total_v75": 0.14215183057725903
+    },
+    "20_50ha": {
+      "objects": 10,
+      "area_m2": 2927800.0,
+      "v75_m3": 2379375.0,
+      "area_km2": 2.9278,
+      "v75_wan_m3": 237.9375,
+      "fraction_of_total_v75": 0.044756326665929935
+    }
+  },
+  "by_target_scl_bin": {
+    "zero": {
+      "objects": 11121,
+      "area_m2": 49768800.0,
+      "v75_m3": 42392450.0,
+      "area_km2": 49.7688,
+      "v75_wan_m3": 4239.245,
+      "fraction_of_total_v75": 0.7974070251091575
+    },
+    "ge025": {
+      "objects": 1209,
+      "area_m2": 6601500.0,
+      "v75_m3": 6020225.0,
+      "area_km2": 6.6015,
+      "v75_wan_m3": 602.0225,
+      "fraction_of_total_v75": 0.11324114807560727
+    },
+    "gt0_lt010": {
+      "objects": 160,
+      "area_m2": 4025000.0,
+      "v75_m3": 3615050.0,
+      "area_km2": 4.025,
+      "v75_wan_m3": 361.505,
+      "fraction_of_total_v75": 0.06799952034196796
+    },
+    "010_lt025": {
+      "objects": 191,
+      "area_m2": 1057700.0,
+      "v75_m3": 1135150.0,
+      "area_km2": 1.0577,
+      "v75_wan_m3": 113.515,
+      "fraction_of_total_v75": 0.021352306473267295
+    }
+  },
+  "by_triple_membership": {
+    "False": {
+      "objects": 11472,
+      "area_m2": 54851500.0,
+      "v75_m3": 47142650.0,
+      "area_km2": 54.8515,
+      "v75_wan_m3": 4714.265,
+      "fraction_of_total_v75": 0.8867588519243927
+    },
+    "True": {
+      "objects": 1209,
+      "area_m2": 6601500.0,
+      "v75_m3": 6020225.0,
+      "area_km2": 6.6015,
+      "v75_wan_m3": 602.0225,
+      "fraction_of_total_v75": 0.11324114807560727
+    }
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\retrospective_rescue_volume_concentration\\20261010_183252_458888\\retrospective_objects_volume_features.csv",
+  "next_step": "Use concentration and shape strata to choose new GIS-review objects, especially high-volume retrospective-exclusive contributors and compact versus elongated objects.",
+  "limits": [
+    "Ranking by V75 is diagnostic and is not a valid water-selection rule.",
+    "Matching the manual ratio numerically is not sufficient for adoption.",
+    "Future model support remains retrospective and prohibited at inference time.",
+    "Shape measures describe raster components and do not establish survey membership.",
+    "Production code and formal outputs are unchanged."
+  ]
+}

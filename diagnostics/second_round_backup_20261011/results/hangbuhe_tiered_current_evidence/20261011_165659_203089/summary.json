@@ -1,0 +1,213 @@
+{
+  "status": "complete",
+  "experiment": "Hangbuhe tiered historical and target-date evidence audit",
+  "source_flag_meaning": {
+    "1": "SAR only",
+    "2": "optical only",
+    "3": "both",
+    "4": "prior only"
+  },
+  "strong_tier": "2024-05-01 support >=0.10 in addition to existing 2024-05-21 support >=0.25",
+  "variants": [
+    {
+      "variant": "strong_two_history_only",
+      "objects": 1364,
+      "area_km2": 8.6653,
+      "v75_increment_wan_m3": 870.800000000001,
+      "retained_volume_fraction": 0.8072212372973674,
+      "future_proxy_object_fraction": 0.7969208211143695,
+      "future_proxy_volume_fraction": 0.8207653881488283,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        },
+        "component_sum": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        }
+      }
+    },
+    {
+      "variant": "plus_single_scl_ge_010",
+      "objects": 1364,
+      "area_km2": 8.6653,
+      "v75_increment_wan_m3": 870.800000000001,
+      "retained_volume_fraction": 0.8072212372973674,
+      "future_proxy_object_fraction": 0.7969208211143695,
+      "future_proxy_volume_fraction": 0.8207653881488283,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        },
+        "component_sum": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        }
+      }
+    },
+    {
+      "variant": "plus_single_scl_ge_025",
+      "objects": 1364,
+      "area_km2": 8.6653,
+      "v75_increment_wan_m3": 870.800000000001,
+      "retained_volume_fraction": 0.8072212372973674,
+      "future_proxy_object_fraction": 0.7969208211143695,
+      "future_proxy_volume_fraction": 0.8207653881488283,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        },
+        "component_sum": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        }
+      }
+    },
+    {
+      "variant": "plus_single_both_source_ge_025",
+      "objects": 1743,
+      "area_km2": 10.7541,
+      "v75_increment_wan_m3": 1051.3475000000008,
+      "retained_volume_fraction": 0.9745866212442509,
+      "future_proxy_object_fraction": 0.7131382673551349,
+      "future_proxy_volume_fraction": 0.7552545661638995,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.5374973531559397,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.20340283683088517,
+          "total_absolute_error_wan_m3": 1424.1437499999993,
+          "mape_percent": 18.503655125065908,
+          "trend_log_error_reduction": 0.5096909338816185,
+          "total_absolute_error_reduction_wan_m3": 1051.3475000000008
+        },
+        "component_sum": {
+          "model_ratio": 1.5374973531559397,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.20340283683088517,
+          "total_absolute_error_wan_m3": 1424.1437499999993,
+          "mape_percent": 18.503655125065908,
+          "trend_log_error_reduction": 0.5096909338816185,
+          "total_absolute_error_reduction_wan_m3": 1051.3475000000008
+        }
+      }
+    },
+    {
+      "variant": "plus_single_scl010_or_both025",
+      "objects": 1743,
+      "area_km2": 10.7541,
+      "v75_increment_wan_m3": 1051.3475000000008,
+      "retained_volume_fraction": 0.9745866212442509,
+      "future_proxy_object_fraction": 0.7131382673551349,
+      "future_proxy_volume_fraction": 0.7552545661638995,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.5374973531559397,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.20340283683088517,
+          "total_absolute_error_wan_m3": 1424.1437499999993,
+          "mape_percent": 18.503655125065908,
+          "trend_log_error_reduction": 0.5096909338816185,
+          "total_absolute_error_reduction_wan_m3": 1051.3475000000008
+        },
+        "component_sum": {
+          "model_ratio": 1.5374973531559397,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.20340283683088517,
+          "total_absolute_error_wan_m3": 1424.1437499999993,
+          "mape_percent": 18.503655125065908,
+          "trend_log_error_reduction": 0.5096909338816185,
+          "total_absolute_error_reduction_wan_m3": 1051.3475000000008
+        }
+      }
+    },
+    {
+      "variant": "plus_single_high_prob_ge_025",
+      "objects": 1364,
+      "area_km2": 8.6653,
+      "v75_increment_wan_m3": 870.800000000001,
+      "retained_volume_fraction": 0.8072212372973674,
+      "future_proxy_object_fraction": 0.7969208211143695,
+      "future_proxy_volume_fraction": 0.8207653881488283,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        },
+        "component_sum": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "objects": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\hangbuhe_tiered_current_evidence\\20261011_165659_203089\\hangbuhe_tiered_current_evidence_objects.csv",
+    "variants": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\hangbuhe_tiered_current_evidence\\20261011_165659_203089\\tiered_current_evidence_variants.csv"
+  },
+  "interpretation": [
+    "Single-history objects are added only through target-date evidence already present in the model.",
+    "Thresholds are diagnostic boundaries based on existing model gates, not fitted production parameters.",
+    "Future persistence and manual totals evaluate tradeoffs but never select objects."
+  ],
+  "limits": [
+    "SCL and source flags are model-side evidence rather than field truth.",
+    "Probability and confidence may inherit calibration error.",
+    "No new DEM calculation or production modification is performed."
+  ]
+}

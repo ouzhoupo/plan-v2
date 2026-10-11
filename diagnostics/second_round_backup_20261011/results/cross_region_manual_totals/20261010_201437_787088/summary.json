@@ -1,0 +1,180 @@
+{
+  "status": "complete",
+  "experiment": "Cross-region manual pond total and component-sum audit",
+  "survey_workbook": "E:\\workkkkkkkk\\2024年-2026年蓄水遥感人工数据.xlsx",
+  "workbook_mtime": "2026-08-27T20:16:21.243168",
+  "records": [
+    {
+      "sheet": "2024年人工",
+      "date": "2024-06-01",
+      "region": "pihe",
+      "source_region_label": "淠河灌区",
+      "date_header_cell": "WM2",
+      "pond_header_cell": "WP3",
+      "total_cell": "WP22",
+      "total_raw_formula_or_value": "17058.0",
+      "source_total_wan_m3": 17058.0,
+      "component_row_start": 4,
+      "component_row_end": 21,
+      "component_sum_wan_m3": 17058.0,
+      "component_minus_total_wan_m3": 0.0,
+      "component_sum_matches_total": true,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    },
+    {
+      "sheet": "2024年人工",
+      "date": "2024-06-01",
+      "region": "shihe",
+      "source_region_label": "史河灌区",
+      "date_header_cell": "WM2",
+      "pond_header_cell": "WP3",
+      "total_cell": "WP28",
+      "total_raw_formula_or_value": "14041.0",
+      "source_total_wan_m3": 14041.0,
+      "component_row_start": 23,
+      "component_row_end": 27,
+      "component_sum_wan_m3": 11929.0,
+      "component_minus_total_wan_m3": -2112.0,
+      "component_sum_matches_total": false,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    },
+    {
+      "sheet": "2024年人工",
+      "date": "2024-06-01",
+      "region": "hangbuhe",
+      "source_region_label": "杭埠河灌区",
+      "date_header_cell": "WM2",
+      "pond_header_cell": "WP3",
+      "total_cell": "WP33",
+      "total_raw_formula_or_value": "3595.0",
+      "source_total_wan_m3": 3595.0,
+      "component_row_start": 29,
+      "component_row_end": 32,
+      "component_sum_wan_m3": 3595.0,
+      "component_minus_total_wan_m3": 0.0,
+      "component_sum_matches_total": true,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    },
+    {
+      "sheet": "2025年人工",
+      "date": "2025-05-21",
+      "region": "pihe",
+      "source_region_label": "淠河灌区",
+      "date_header_cell": "UQ2",
+      "pond_header_cell": "UT3",
+      "total_cell": "UT22",
+      "total_raw_formula_or_value": "9174.0",
+      "source_total_wan_m3": 9174.0,
+      "component_row_start": 4,
+      "component_row_end": 21,
+      "component_sum_wan_m3": 9767.0,
+      "component_minus_total_wan_m3": 593.0,
+      "component_sum_matches_total": false,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    },
+    {
+      "sheet": "2025年人工",
+      "date": "2025-05-21",
+      "region": "shihe",
+      "source_region_label": "史河灌区",
+      "date_header_cell": "UQ2",
+      "pond_header_cell": "UT3",
+      "total_cell": "UT28",
+      "total_raw_formula_or_value": "2484.0",
+      "source_total_wan_m3": 2484.0,
+      "component_row_start": 23,
+      "component_row_end": 27,
+      "component_sum_wan_m3": 2484.0,
+      "component_minus_total_wan_m3": 0.0,
+      "component_sum_matches_total": true,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    },
+    {
+      "sheet": "2025年人工",
+      "date": "2025-05-21",
+      "region": "hangbuhe",
+      "source_region_label": "杭埠河灌区",
+      "date_header_cell": "UQ2",
+      "pond_header_cell": "UT3",
+      "total_cell": "UT33",
+      "total_raw_formula_or_value": "4510.0",
+      "source_total_wan_m3": 4510.0,
+      "component_row_start": 29,
+      "component_row_end": 32,
+      "component_sum_wan_m3": 4510.0,
+      "component_minus_total_wan_m3": 0.0,
+      "component_sum_matches_total": true,
+      "ledger_value_wan_m3": "",
+      "ledger_matches_source_total": false
+    }
+  ],
+  "regional_trends": {
+    "pihe": {
+      "source_total": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0,
+        "ratio_2025_to_2024": 0.5378121702427013,
+        "direction": "decrease"
+      },
+      "component_sum": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9767.0,
+        "ratio_2025_to_2024": 0.5725759174580842,
+        "direction": "decrease"
+      },
+      "direction_robust_to_total_discrepancy": true
+    },
+    "shihe": {
+      "source_total": {
+        "2024-06-01": 14041.0,
+        "2025-05-21": 2484.0,
+        "ratio_2025_to_2024": 0.17691047646179048,
+        "direction": "decrease"
+      },
+      "component_sum": {
+        "2024-06-01": 11929.0,
+        "2025-05-21": 2484.0,
+        "ratio_2025_to_2024": 0.20823203956744069,
+        "direction": "decrease"
+      },
+      "direction_robust_to_total_discrepancy": true
+    },
+    "hangbuhe": {
+      "source_total": {
+        "2024-06-01": 3595.0,
+        "2025-05-21": 4510.0,
+        "ratio_2025_to_2024": 1.25452016689847,
+        "direction": "increase"
+      },
+      "component_sum": {
+        "2024-06-01": 3595.0,
+        "2025-05-21": 4510.0,
+        "ratio_2025_to_2024": 1.25452016689847,
+        "direction": "increase"
+      },
+      "direction_robust_to_total_discrepancy": true
+    }
+  },
+  "checks": {
+    "all_regions_found_on_both_dates": true,
+    "all_component_sums_match_source_totals": false,
+    "all_ledger_values_match_source_totals": false,
+    "all_region_directions_robust_to_total_discrepancy": true
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\cross_region_manual_totals\\20261010_201437_787088\\manual_region_totals.csv",
+  "interpretation": [
+    "Source total rows and recomputed component sums are retained as separate scenarios wherever they differ.",
+    "A direction is considered robust only when total-row and component-sum scenarios agree.",
+    "The workbook is read only and no source or stage ledger value is changed."
+  ],
+  "limits": [
+    "Survey subunit geometry and exact mapping to model AOIs remain unavailable.",
+    "Workbook dates do not establish within-day observation time.",
+    "A matching regional direction does not by itself validate model object membership or absolute volume."
+  ]
+}

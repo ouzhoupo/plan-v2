@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "experiment": "Retrospective rescue volume-contributor GIS review",
+  "targets": 15,
+  "pages": 5,
+  "excluded_previous_review_objects": 15,
+  "selection": "Three unseen objects from each of five volume/shape strata: top V75; compact 0.2-1 ha with zero target SCL; compact 1-5 ha with zero target SCL; elongated 0.2-5 ha with zero target SCL; and weak nonzero target SCL below 0.25.",
+  "limits": [
+    "The sample is mechanism-stratified and cannot estimate population accuracy.",
+    "Top-volume selection intentionally overrepresents influential objects.",
+    "2025 support remains retrospective and cannot be used as a 2024 inference input.",
+    "Local SAR stretching is qualitative and does not define a threshold.",
+    "No object is restored and no model output is modified."
+  ]
+}

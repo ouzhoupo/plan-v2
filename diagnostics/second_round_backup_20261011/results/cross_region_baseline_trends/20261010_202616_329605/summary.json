@@ -1,0 +1,143 @@
+{
+  "status": "complete",
+  "experiment": "Cross-region original-V75 baseline trend qualification",
+  "manual_summary": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\cross_region_manual_totals\\20261010_201437_787088\\summary.json",
+  "regional": {
+    "pihe": {
+      "model": {
+        "2024-06-01": {
+          "objects": 1117,
+          "v75_wan_m3": 1855.5975,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\final\\pihe\\pond_storage_2024-06-01.csv"
+        },
+        "2025-05-21": {
+          "objects": 3724,
+          "v75_wan_m3": 12545.44625,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\final\\pihe\\pond_storage_2025-05-21.csv"
+        }
+      },
+      "source_total_scenario": {
+        "model_ratio_2025_to_2024": 6.760866109164299,
+        "manual_ratio_2025_to_2024": 0.5378121702427013,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "trend_log_error": 2.5313969102272442,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 23326.817324231528,
+        "exact_match_increment_wan_m3": 21471.219824231528,
+        "direction_flip_increment_wan_m3": 10689.848750000001
+      },
+      "component_sum_scenario": {
+        "model_ratio_2025_to_2024": 6.760866109164299,
+        "manual_ratio_2025_to_2024": 0.5725759174580842,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "trend_log_error": 2.4687609499368843,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 21910.537742653833,
+        "exact_match_increment_wan_m3": 20054.940242653833,
+        "direction_flip_increment_wan_m3": 10689.848750000001
+      },
+      "manual_direction_robust": true,
+      "rescue_direction_robust": true
+    },
+    "shihe": {
+      "model": {
+        "2024-06-01": {
+          "objects": 1937,
+          "v75_wan_m3": 9037.01375,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\final\\shihe\\pond_storage_2024-06-01.csv"
+        },
+        "2025-05-21": {
+          "objects": 1364,
+          "v75_wan_m3": 9457.115,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\final\\shihe\\pond_storage_2025-05-21.csv"
+        }
+      },
+      "source_total_scenario": {
+        "model_ratio_2025_to_2024": 1.0464867335185808,
+        "manual_ratio_2025_to_2024": 0.17691047646179048,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "trend_log_error": 1.7775500428839581,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 53457.06590780998,
+        "exact_match_increment_wan_m3": 44420.05215780998,
+        "direction_flip_increment_wan_m3": 420.1012499999997
+      },
+      "component_sum_scenario": {
+        "model_ratio_2025_to_2024": 1.0464867335185808,
+        "manual_ratio_2025_to_2024": 0.20823203956744069,
+        "model_direction": "increase",
+        "manual_direction": "decrease",
+        "trend_log_error": 1.6145408320512618,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 45416.233830515295,
+        "exact_match_increment_wan_m3": 36379.2200805153,
+        "direction_flip_increment_wan_m3": 420.1012499999997
+      },
+      "manual_direction_robust": true,
+      "rescue_direction_robust": true
+    },
+    "hangbuhe": {
+      "model": {
+        "2024-06-01": {
+          "objects": 321,
+          "v75_wan_m3": 1581.505,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\final\\hangbuhe\\pond_storage_2024-06-01.csv"
+        },
+        "2025-05-21": {
+          "objects": 885,
+          "v75_wan_m3": 4048.00375,
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\final\\hangbuhe\\pond_storage_2025-05-21.csv"
+        }
+      },
+      "source_total_scenario": {
+        "model_ratio_2025_to_2024": 2.5595895997799563,
+        "manual_ratio_2025_to_2024": 1.25452016689847,
+        "model_direction": "increase",
+        "manual_direction": "increase",
+        "trend_log_error": 0.7130937707125036,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 3226.7346965077604,
+        "exact_match_increment_wan_m3": 1645.2296965077603,
+        "direction_flip_increment_wan_m3": 2466.4987499999997
+      },
+      "component_sum_scenario": {
+        "model_ratio_2025_to_2024": 2.5595895997799563,
+        "manual_ratio_2025_to_2024": 1.25452016689847,
+        "model_direction": "increase",
+        "manual_direction": "increase",
+        "trend_log_error": 0.7130937707125036,
+        "model_ratio_above_manual": true,
+        "adding_2024_volume_initially_improves_trend": true,
+        "exact_match_2024_model_volume_wan_m3": 3226.7346965077604,
+        "exact_match_increment_wan_m3": 1645.2296965077603,
+        "direction_flip_increment_wan_m3": 2466.4987499999997
+      },
+      "manual_direction_robust": true,
+      "rescue_direction_robust": true
+    }
+  },
+  "checks": {
+    "all_manual_directions_robust": true,
+    "adding_2024_volume_initially_improves_all_regions": true
+  },
+  "interpretation": [
+    "The rescue changes only the 2024 denominator in this arithmetic gate.",
+    "An increment is directionally useful when the baseline model ratio exceeds the manual ratio.",
+    "Exact-match increments are diagnostic budgets, not selection targets or fitted parameters.",
+    "For a manually increasing region, the direction-flip increment marks where excessive rescue would reverse the model trend."
+  ],
+  "limits": [
+    "Original V75 outputs are used for cross-region comparability and differ from the qualified Pihe shared-SAR pair.",
+    "Manual irrigation-region totals are not spatially matched object labels.",
+    "No candidate DEM volume is computed in this step."
+  ],
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\cross_region_baseline_trends\\20261010_202616_329605\\regional_baseline_trends.csv"
+}

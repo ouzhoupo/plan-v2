@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "parent_features": 20,
+  "reviewed_components": 20,
+  "date": "2024-06-01",
+  "limits": [
+    "Reservoir vector polygons are comparison scopes, not contemporaneous water truth.",
+    "Low coverage can reflect drawdown, invalid observations, vector mismatch or recognition error; it is not a measured omission rate.",
+    "C0-C4 stages are frozen first-round upstream variants before vector deduction.",
+    "Parent polygons may overlap; do not sum their areas as an AOI total.",
+    "No thresholds changed, no water restored and no volume calculated."
+  ]
+}

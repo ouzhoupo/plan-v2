@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "experiment": "Shihe temporal-shape sensitivity boundary GIS review",
+  "targets": 12,
+  "pages": 4,
+  "groups": {
+    "small_0p2_1ha_future": 6783,
+    "small_0p2_1ha_no_future": 8478,
+    "low_fill_0p45_0p55_future": 756,
+    "low_fill_0p45_0p55_no_future": 866
+  },
+  "selection": "Three held-out objects near 25%, 50%, and 75% V75 rank in each boundary group.",
+  "limits": [
+    "Samples diagnose object composition and do not estimate population accuracy.",
+    "Future support is retrospective context rather than field truth.",
+    "No object is restored and no production output is changed."
+  ]
+}

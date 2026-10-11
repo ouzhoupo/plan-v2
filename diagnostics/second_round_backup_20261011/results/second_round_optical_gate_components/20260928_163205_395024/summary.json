@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_optical_gate_outside_deduction\\20260928_161557_737310",
+  "connectivity": 4,
+  "objects": 42928,
+  "total_pixels": 307012,
+  "area_km2": 30.7012,
+  "groups": {
+    "500_20000m2|isolated_from_C4": {
+      "objects": 6374,
+      "pixels": 100993,
+      "area_km2": 10.0993
+    },
+    "below_500m2|isolated_from_C4": {
+      "objects": 13068,
+      "pixels": 23295,
+      "area_km2": 2.3295
+    },
+    "500_20000m2|touches_C4": {
+      "objects": 5113,
+      "pixels": 107657,
+      "area_km2": 10.7657
+    },
+    "20000_500000m2|touches_C4": {
+      "objects": 71,
+      "pixels": 36024,
+      "area_km2": 3.6024
+    },
+    "below_500m2|touches_C4": {
+      "objects": 18292,
+      "pixels": 30968,
+      "area_km2": 3.0968
+    },
+    "above_500000m2|isolated_from_C4": {
+      "objects": 1,
+      "pixels": 5676,
+      "area_km2": 0.5676
+    },
+    "20000_500000m2|isolated_from_C4": {
+      "objects": 9,
+      "pixels": 2399,
+      "area_km2": 0.2399
+    }
+  },
+  "limits": [
+    "Fragments are threshold-blocked pixels, not complete ponds.",
+    "One-pixel four-neighbor contact with frozen upstream C4 is geometric context, not water truth or seed eligibility.",
+    "C4 includes water later removed by deduction; adjacency does not establish final retained-water support.",
+    "Area bands are diagnostic strata, not an applied area gate.",
+    "No masks restored, model thresholds changed or volume calculated."
+  ]
+}

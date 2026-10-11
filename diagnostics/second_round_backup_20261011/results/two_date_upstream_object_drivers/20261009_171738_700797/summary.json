@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "experiment": "Two-date upstream object-driver audit",
+  "stage": "paired C4 upstream water before vector deduction and downstream gates",
+  "dates": {
+    "2024-06-01": {
+      "objects": 54926,
+      "water_pixels": 2077158,
+      "object_pixel_sum": 2077158,
+      "area_km2": 207.7158,
+      "other_date_overlap_pixels": 1564955,
+      "exclusive_pixels": 512203,
+      "confidence_encoding": "unit_interval",
+      "matches_stage_area": true,
+      "object_pixels_close": true
+    },
+    "2025-05-21": {
+      "objects": 212357,
+      "water_pixels": 11020679,
+      "object_pixel_sum": 11020679,
+      "area_km2": 1102.0679,
+      "other_date_overlap_pixels": 1564955,
+      "exclusive_pixels": 9455724,
+      "confidence_encoding": "unit_interval",
+      "matches_stage_area": true,
+      "object_pixels_close": true
+    }
+  },
+  "cross_date_overlap_symmetric": true,
+  "area_ratio_2025_to_2024": 5.3056527235771185,
+  "source_code_meaning": {
+    "0": "none_or_unassigned",
+    "1": "sar_only",
+    "2": "optical_only",
+    "3": "dual_source",
+    "4": "prior_only"
+  },
+  "outputs": {
+    "all_object_tables": [
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\objects_2024-06-01.csv",
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\objects_2025-05-21.csv"
+    ],
+    "grouped_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\grouped_object_area.csv",
+    "top_area_tables": [
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\top100_area_2024-06-01.csv",
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\top100_area_2025-05-21.csv"
+    ],
+    "top_exclusive_area_tables": [
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\top100_exclusive_area_2024-06-01.csv",
+      "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_upstream_object_drivers\\20261009_171738_700797\\top100_exclusive_area_2025-05-21.csv"
+    ]
+  },
+  "limits": [
+    "A connected component is a raster object, not a confirmed physical pond.",
+    "Cross-date pixel overlap is common spatial support, not proof of physical identity or unchanged water.",
+    "Exclusive area can contain real hydrological change, observation differences, segmentation effects, or false classification.",
+    "Source code and model probability describe the evidence path; neither is an independent truth label.",
+    "Area bands and shape metrics are descriptive bins, not proposed screening thresholds.",
+    "No model threshold, mask, object output, DEM volume, or production result is modified."
+  ]
+}

@@ -1,0 +1,13 @@
+﻿object_id,pixels,area_m2,removed_pixels,removed_area_m2,removed_fraction,center_x,center_y,selection_previous_min_distance_m,selection_within_min_distance_m,review_group,page,image,crop_mode,displayed_object_pixels,displayed_removed_pixels,proxy_label,removed_part_interpretation,notes
+11117,2647,264700.0,529,52900.0,0.19984888553078958,475395.0,3582450.0,2000.0,3000.0,low_removed_5_25pct,1,review_page_01.png,full_object_bbox,2647,529,unreviewed,unreviewed,
+14611,947,94700.0,183,18300.0,0.1932418162618796,472905.0,3579205.0,2000.0,3000.0,low_removed_5_25pct,1,review_page_01.png,full_object_bbox,947,183,unreviewed,unreviewed,
+90572,3362,336200.0,181,18100.0,0.05383700178465199,486780.0,3525835.0,2000.0,3000.0,low_removed_5_25pct,2,review_page_02.png,full_object_bbox,3362,181,unreviewed,unreviewed,
+33056,1422,142200.0,936,93600.0,0.6582278481012658,478815.0,3565105.0,2000.0,3000.0,medium_removed_25_75pct,2,review_page_02.png,full_object_bbox,1422,936,unreviewed,unreviewed,
+36908,955,95500.0,710,71000.0,0.743455497382199,498130.0,3562990.0,2000.0,3000.0,medium_removed_25_75pct,3,review_page_03.png,full_object_bbox,955,710,unreviewed,unreviewed,
+5427,951,95100.0,625,62500.0,0.6572029442691903,480315.0,3588425.0,2000.0,3000.0,medium_removed_25_75pct,3,review_page_03.png,full_object_bbox,951,625,unreviewed,unreviewed,
+25265,3990,399000.0,3990,399000.0,1.0,479120.0,3569790.0,2000.0,3000.0,high_removed_ge_75pct,4,review_page_04.png,full_object_bbox,3990,3990,unreviewed,unreviewed,
+13323,3691,369100.0,3691,369100.0,1.0,483485.0,3580435.0,2000.0,3000.0,high_removed_ge_75pct,4,review_page_04.png,full_object_bbox,3691,3691,unreviewed,unreviewed,
+30703,2103,210300.0,2103,210300.0,1.0,491660.0,3566495.0,2000.0,3000.0,high_removed_ge_75pct,5,review_page_05.png,full_object_bbox,2103,2103,unreviewed,unreviewed,
+64564,96677,9667700.0,331,33100.0,0.0034237719416200336,540535.0,3545715.0,2000.0,3000.0,large_object_ge_50ha,5,review_page_05.png,local_crop_largest_removed_patch,55981,228,unreviewed,unreviewed,
+104410,14002,1400200.0,159,15900.0,0.011355520639908585,486110.0,3506685.0,2000.0,3000.0,large_object_ge_50ha,6,review_page_06.png,full_object_bbox,14002,159,unreviewed,unreviewed,
+10803,39399,3939900.0,150,15000.0,0.0038072032285083376,523585.0,3581900.0,2000.0,3000.0,large_object_ge_50ha,6,review_page_06.png,full_object_bbox,39399,150,unreviewed,unreviewed,

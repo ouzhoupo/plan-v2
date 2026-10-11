@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "experiment": "Conservative new-SAR gate paired downstream propagation",
+  "date": "2025-05-21",
+  "region": "pihe",
+  "source_upstream": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095",
+  "source_holdout_review": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_holdout_review\\20261010_142919_137639",
+  "upstream_water_km2": {
+    "shared_baseline": 414.8044,
+    "conservative_gate": 346.5546,
+    "upstream_removed": 68.2498
+  },
+  "paired_baseline": {
+    "source_water_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_shared_alpha_c4_water_mask.tif",
+    "post_deduct_morph": {
+      "source_water_pixels": 4148044,
+      "source_water_area_m2": 414804400.0,
+      "aoi_water_pixels": 4148044,
+      "aoi_water_area_m2": 414804400.0,
+      "landuse_intersected_pixels": 4148044,
+      "landuse_intersected_area_m2": 414804400.0,
+      "deducted_union_pixels": 1370989,
+      "deducted_union_area_m2": 137098900.0,
+      "pond_candidate_pixels": 2940754,
+      "pond_candidate_area_m2": 294075400.0,
+      "pixel_area_m2": 100.0,
+      "layers": {
+        "_": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_.shp",
+          "raw_overlap_m2": 438700.0,
+          "raw_overlap_pixels": 4387
+        },
+        "_1": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_1.shp",
+          "raw_overlap_m2": 2462600.0,
+          "raw_overlap_pixels": 24626
+        },
+        "_2": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_2.shp",
+          "raw_overlap_m2": 352800.0,
+          "raw_overlap_pixels": 3528
+        },
+        "_3": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_3.shp",
+          "raw_overlap_m2": 2204700.0,
+          "raw_overlap_pixels": 22047
+        },
+        "__1": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__1.shp",
+          "raw_overlap_m2": 2708600.0,
+          "raw_overlap_pixels": 27086
+        },
+        "__2": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__2.shp",
+          "raw_overlap_m2": 3192300.0,
+          "raw_overlap_pixels": 31923
+        },
+        "__3": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__3.shp",
+          "raw_overlap_m2": 2194400.0,
+          "raw_overlap_pixels": 21944
+        },
+        "__4": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__4.shp",
+          "raw_overlap_m2": 33926200.0,
+          "raw_overlap_pixels": 339262
+        },
+        "__4326": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__4326.shp",
+          "raw_overlap_m2": 33926200.0,
+          "raw_overlap_pixels": 339262
+        },
+        "psh_res": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\psh_res.shp",
+          "raw_overlap_m2": 128507000.0,
+          "raw_overlap_pixels": 1285070
+        },
+        "known_reservoir": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp",
+          "raw_overlap_m2": 128507000.0,
+          "raw_overlap_pixels": 1285070
+        }
+      }
+    },
+    "area_gate": {
+      "object_count": 63101,
+      "area_m2": 279774900.0,
+      "area_km2": 279.7749,
+      "rasterized_pixels": 2797749
+    },
+    "after_landuse": {
+      "object_count": 2808,
+      "area_m2": 30512000.0,
+      "area_km2": 30.512,
+      "rasterized_pixels": 305120
+    },
+    "outputs": {
+      "post_deduct_morph_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\shared_baseline_post_deduct_morph.tif",
+      "area_gate_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\shared_baseline_after_area_gate.tif",
+      "final_mask_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\shared_baseline_after_landuse.tif",
+      "final_objects_gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\shared_baseline_objects_after_landuse.gpkg",
+      "final_objects_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\shared_baseline_objects_after_landuse.csv"
+    }
+  },
+  "conservative_gate": {
+    "source_water_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_evidence_gate_upstream\\20261010_134344_780095\\clear_low_no_aux_gate_c4_water_mask.tif",
+    "post_deduct_morph": {
+      "source_water_pixels": 3465546,
+      "source_water_area_m2": 346554600.0,
+      "aoi_water_pixels": 3465546,
+      "aoi_water_area_m2": 346554600.0,
+      "landuse_intersected_pixels": 3465546,
+      "landuse_intersected_area_m2": 346554600.0,
+      "deducted_union_pixels": 1358955,
+      "deducted_union_area_m2": 135895500.0,
+      "pond_candidate_pixels": 2209596,
+      "pond_candidate_area_m2": 220959600.0,
+      "pixel_area_m2": 100.0,
+      "layers": {
+        "_": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_.shp",
+          "raw_overlap_m2": 312600.0,
+          "raw_overlap_pixels": 3126
+        },
+        "_1": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_1.shp",
+          "raw_overlap_m2": 2448600.0,
+          "raw_overlap_pixels": 24486
+        },
+        "_2": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_2.shp",
+          "raw_overlap_m2": 252100.0,
+          "raw_overlap_pixels": 2521
+        },
+        "_3": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\_3.shp",
+          "raw_overlap_m2": 2112400.0,
+          "raw_overlap_pixels": 21124
+        },
+        "__1": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__1.shp",
+          "raw_overlap_m2": 2605500.0,
+          "raw_overlap_pixels": 26055
+        },
+        "__2": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__2.shp",
+          "raw_overlap_m2": 3172700.0,
+          "raw_overlap_pixels": 31727
+        },
+        "__3": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__3.shp",
+          "raw_overlap_m2": 1627000.0,
+          "raw_overlap_pixels": 16270
+        },
+        "__4": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__4.shp",
+          "raw_overlap_m2": 33924100.0,
+          "raw_overlap_pixels": 339241
+        },
+        "__4326": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\__4326.shp",
+          "raw_overlap_m2": 33924100.0,
+          "raw_overlap_pixels": 339241
+        },
+        "psh_res": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20250521\\pihe\\buffered_river\\psh_res.shp",
+          "raw_overlap_m2": 128115000.0,
+          "raw_overlap_pixels": 1281150
+        },
+        "known_reservoir": {
+          "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp",
+          "raw_overlap_m2": 128115000.0,
+          "raw_overlap_pixels": 1281150
+        }
+      }
+    },
+    "area_gate": {
+      "object_count": 47017,
+      "area_m2": 210325200.0,
+      "area_km2": 210.3252,
+      "rasterized_pixels": 2103252
+    },
+    "after_landuse": {
+      "object_count": 2650,
+      "area_m2": 28463500.0,
+      "area_km2": 28.4635,
+      "rasterized_pixels": 284635
+    },
+    "outputs": {
+      "post_deduct_morph_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_gate_post_deduct_morph.tif",
+      "area_gate_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_gate_after_area_gate.tif",
+      "final_mask_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_gate_after_landuse.tif",
+      "final_objects_gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_gate_objects_after_landuse.gpkg",
+      "final_objects_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_gate_objects_after_landuse.csv"
+    }
+  },
+  "stage_changes": {
+    "post_deduct_morph": {
+      "pixel_area_m2": 100.0,
+      "baseline_pixels": 2940754,
+      "experiment_pixels": 2209596,
+      "added_pixels": 0,
+      "removed_pixels": 731158,
+      "baseline_area_m2": 294075400.0,
+      "experiment_area_m2": 220959600.0,
+      "added_area_m2": 0.0,
+      "removed_area_m2": 73115800.0,
+      "baseline_area_km2": 294.0754,
+      "experiment_area_km2": 220.9596,
+      "added_area_km2": 0.0,
+      "removed_area_km2": 73.1158,
+      "change_codes": {
+        "0": "unchanged",
+        "1": "added",
+        "2": "removed"
+      },
+      "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_vs_shared_post_deduct_morph_change.tif"
+    },
+    "area_gate": {
+      "pixel_area_m2": 100.0,
+      "baseline_pixels": 2797749,
+      "experiment_pixels": 2103252,
+      "added_pixels": 0,
+      "removed_pixels": 694497,
+      "baseline_area_m2": 279774900.0,
+      "experiment_area_m2": 210325200.0,
+      "added_area_m2": 0.0,
+      "removed_area_m2": 69449700.0,
+      "baseline_area_km2": 279.7749,
+      "experiment_area_km2": 210.3252,
+      "added_area_km2": 0.0,
+      "removed_area_km2": 69.4497,
+      "change_codes": {
+        "0": "unchanged",
+        "1": "added",
+        "2": "removed"
+      },
+      "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_vs_shared_area_gate_change.tif"
+    },
+    "after_landuse": {
+      "pixel_area_m2": 100.0,
+      "baseline_pixels": 305120,
+      "experiment_pixels": 284635,
+      "added_pixels": 0,
+      "removed_pixels": 20485,
+      "baseline_area_m2": 30512000.0,
+      "experiment_area_m2": 28463500.0,
+      "added_area_m2": 0.0,
+      "removed_area_m2": 2048500.0,
+      "baseline_area_km2": 30.512,
+      "experiment_area_km2": 28.4635,
+      "added_area_km2": 0.0,
+      "removed_area_km2": 2.0485,
+      "change_codes": {
+        "0": "unchanged",
+        "1": "added",
+        "2": "removed"
+      },
+      "change_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667\\2025-05-21\\conservative_vs_shared_after_landuse_change.tif"
+    }
+  },
+  "dem_and_volume_computed": false,
+  "limits": [
+    "This is a paired propagation through the existing deduction, morphology, area, and land-use rules.",
+    "The holdout review supports continuation but includes two uncertain full-removal cases.",
+    "Downstream survival does not establish field-truth accuracy or survey membership.",
+    "Only the 2025 Pihe AOI is tested; no Shihe, Hangbuhe, or whole-Pishihang inference is made.",
+    "No production code, production output, DEM volume, or final parameter is modified."
+  ]
+}

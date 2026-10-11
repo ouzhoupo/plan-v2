@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "experiment": "Two-date upstream object-driver visual review",
+  "targets": 16,
+  "pages": 8,
+  "selection": "2025 objects with >=75% date-exclusive support: two dual-source and one SAR-only object per major area band, plus two high-overlap controls for each source class.",
+  "limits": [
+    "The sample is mechanism-stratified and cannot estimate population accuracy.",
+    "A 2025-exclusive raster object can represent real hydrological change, segmentation change, or classification error.",
+    "Large objects use a local crop around the largest exclusive patch; review pages do not always show the full object.",
+    "S1 panels use local display stretching and are qualitative, not calibrated backscatter comparisons.",
+    "Visual labels are proxy evidence, not field truth or survey membership.",
+    "No model input, threshold, mask, object, DEM volume, or production result is modified."
+  ]
+}

@@ -1,0 +1,4 @@
+﻿region,reviewed_objects,possible_target,uncertain,non_target,unclassified,possible_target_fraction,non_target_fraction
+pihe,27,9,9,9,0,0.3333333333333333,0.3333333333333333
+shihe,42,10,5,3,24,0.23809523809523808,0.07142857142857142
+hangbuhe,30,11,9,10,0,0.36666666666666664,0.3333333333333333

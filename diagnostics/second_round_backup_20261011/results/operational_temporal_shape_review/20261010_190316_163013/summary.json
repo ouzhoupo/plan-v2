@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "experiment": "Operational temporal-shape candidate held-out GIS review",
+  "targets": 15,
+  "pages": 5,
+  "excluded_previous_review_objects": 30,
+  "selection": "Three unseen objects from strict selected/future persistent, loose-only/future persistent, loose selected/no future support, future persistent rejected as elongated, and future persistent rejected as >=5 ha.",
+  "limits": [
+    "This is a mechanism-stratified review and cannot estimate population accuracy.",
+    "Future absence may indicate drying rather than a false positive.",
+    "Future persistence may repeat a systematic error rather than prove water.",
+    "No candidate is restored and no model output is changed."
+  ]
+}

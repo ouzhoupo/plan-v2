@@ -1,0 +1,139 @@
+{
+  "status": "complete",
+  "experiment": "Temporal-shape original-V75 cross-region bridge",
+  "target_date": "2024-06-01",
+  "previous_date": "2024-05-21",
+  "future_proxy_date": "2025-05-21",
+  "regions": {
+    "pihe": {
+      "region": "pihe",
+      "baseline_reproduction": {
+        "prepared_added_pixels": 0,
+        "prepared_removed_pixels": 0,
+        "expected_final_objects": 1117,
+        "reproduced_final_objects": 1117,
+        "expected_final_area_m2": 14160700.0,
+        "reproduced_final_area_m2": 14160700.0
+      },
+      "area_gate": {
+        "object_count": 23529,
+        "area_m2": 109549400.0,
+        "area_km2": 109.5494,
+        "rasterized_pixels": 1095494
+      },
+      "after_landuse": {
+        "object_count": 1117,
+        "area_m2": 14160700.0,
+        "area_km2": 14.1607,
+        "rasterized_pixels": 141607
+      },
+      "landuse_rejected": {
+        "objects": 22412,
+        "area_m2": 95388700.0
+      },
+      "loose_candidate": {
+        "objects": 5940,
+        "area_m2": 33147200.0,
+        "area_km2": 33.1472,
+        "fraction_of_rejected_objects": 0.265036587542388,
+        "fraction_of_rejected_area": 0.34749608706272334,
+        "future_proxy_objects": 4933,
+        "future_proxy_area_m2": 27986300.0,
+        "future_proxy_object_fraction": 0.8304713804713805,
+        "future_proxy_area_fraction": 0.8443035912535599
+      },
+      "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_shape_cross_region_bridge\\20261010_194531_518591\\pihe\\landuse_rejected_temporal_shape_bridge.csv"
+    },
+    "shihe": {
+      "region": "shihe",
+      "baseline_reproduction": {
+        "prepared_added_pixels": 0,
+        "prepared_removed_pixels": 0,
+        "expected_final_objects": 1937,
+        "reproduced_final_objects": 1937,
+        "expected_final_area_m2": 62645200.0,
+        "reproduced_final_area_m2": 62645200.0
+      },
+      "area_gate": {
+        "object_count": 74598,
+        "area_m2": 518753900.0,
+        "area_km2": 518.7539,
+        "rasterized_pixels": 5187539
+      },
+      "after_landuse": {
+        "object_count": 1937,
+        "area_m2": 62645200.0,
+        "area_km2": 62.6452,
+        "rasterized_pixels": 626452
+      },
+      "landuse_rejected": {
+        "objects": 72661,
+        "area_m2": 456108700.0
+      },
+      "loose_candidate": {
+        "objects": 17882,
+        "area_m2": 111031900.0,
+        "area_km2": 111.0319,
+        "fraction_of_rejected_objects": 0.24610176022900868,
+        "fraction_of_rejected_area": 0.24343297990150156,
+        "future_proxy_objects": 8073,
+        "future_proxy_area_m2": 52483000.0,
+        "future_proxy_object_fraction": 0.4514595682809529,
+        "future_proxy_area_fraction": 0.4726839764067804
+      },
+      "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_shape_cross_region_bridge\\20261010_194531_518591\\shihe\\landuse_rejected_temporal_shape_bridge.csv"
+    },
+    "hangbuhe": {
+      "region": "hangbuhe",
+      "baseline_reproduction": {
+        "prepared_added_pixels": 0,
+        "prepared_removed_pixels": 0,
+        "expected_final_objects": 321,
+        "reproduced_final_objects": 321,
+        "expected_final_area_m2": 8815000.0,
+        "reproduced_final_area_m2": 8815000.0
+      },
+      "area_gate": {
+        "object_count": 8979,
+        "area_m2": 68695900.0,
+        "area_km2": 68.6959,
+        "rasterized_pixels": 686959
+      },
+      "after_landuse": {
+        "object_count": 321,
+        "area_m2": 8815000.0,
+        "area_km2": 8.815,
+        "rasterized_pixels": 88150
+      },
+      "landuse_rejected": {
+        "objects": 8658,
+        "area_m2": 59880900.0
+      },
+      "loose_candidate": {
+        "objects": 1819,
+        "area_m2": 11062900.0,
+        "area_km2": 11.0629,
+        "fraction_of_rejected_objects": 0.2100947100947101,
+        "fraction_of_rejected_area": 0.18474839222523376,
+        "future_proxy_objects": 1255,
+        "future_proxy_area_m2": 7894800.0,
+        "future_proxy_object_fraction": 0.6899395272127543,
+        "future_proxy_area_fraction": 0.713628433774146
+      },
+      "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_shape_cross_region_bridge\\20261010_194531_518591\\hangbuhe\\landuse_rejected_temporal_shape_bridge.csv"
+    }
+  },
+  "selection": "previous support >=0.25, area 0.2-5 ha, bbox fill >=0.45, elongation <=3",
+  "interpretation": [
+    "The same original V75 baseline and downstream rules are used in all three regions.",
+    "The Pihe bridge quantifies sensitivity to changing from the qualified shared-SAR baseline back to original V75.",
+    "Future support is a retrospective comparability proxy and never selects an object.",
+    "Candidate capacity and proxy fractions test spatial transfer of the mechanism, not manual-volume accuracy."
+  ],
+  "limits": [
+    "No DEM volume or manual trend evaluation is computed for Shihe or Hangbuhe.",
+    "The original V75 bridge is not numerically identical to the qualified Pihe shared-SAR experiment.",
+    "Future persistence can repeat stable model errors.",
+    "No production code, mask, parameter, or formal output is changed."
+  ]
+}

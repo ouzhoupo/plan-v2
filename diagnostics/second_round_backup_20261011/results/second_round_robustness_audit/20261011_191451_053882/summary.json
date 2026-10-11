@@ -1,0 +1,140 @@
+{
+  "status": "complete",
+  "experiment": "Second-round correction reliability and robustness audit",
+  "manual_scenario_direction_stability": {
+    "pihe": true,
+    "shihe": true,
+    "hangbuhe": true
+  },
+  "manual_scenario_absolute_stability": {
+    "pihe": {
+      "source_total_improves": true,
+      "component_sum_improves": false
+    },
+    "shihe": {
+      "source_total_improves": true,
+      "component_sum_improves": true
+    },
+    "hangbuhe": {
+      "source_total_improves": true,
+      "component_sum_improves": true
+    }
+  },
+  "parameter_direction_stability": {
+    "pihe": {
+      "tested_variants": 14,
+      "direction_matching_variants": 13,
+      "direction_matching_fraction": 0.9285714285714286
+    },
+    "shihe_source_total": {
+      "tested_variants": 13,
+      "direction_matching_variants": 13,
+      "direction_matching_fraction": 1.0
+    },
+    "shihe_component_sum": {
+      "tested_variants": 13,
+      "direction_matching_variants": 13,
+      "direction_matching_fraction": 1.0
+    },
+    "hangbuhe": {
+      "tested_variants": 5,
+      "direction_matching_variants": 5,
+      "direction_matching_fraction": 1.0
+    }
+  },
+  "gis_evidence_counts": [
+    {
+      "region": "pihe",
+      "reviewed_objects": 27,
+      "possible_target": 9,
+      "uncertain": 9,
+      "non_target": 9,
+      "unclassified": 0,
+      "possible_target_fraction": 0.3333333333333333,
+      "non_target_fraction": 0.3333333333333333
+    },
+    {
+      "region": "shihe",
+      "reviewed_objects": 42,
+      "possible_target": 10,
+      "uncertain": 5,
+      "non_target": 3,
+      "unclassified": 24,
+      "possible_target_fraction": 0.23809523809523808,
+      "non_target_fraction": 0.07142857142857142
+    },
+    {
+      "region": "hangbuhe",
+      "reviewed_objects": 30,
+      "possible_target": 11,
+      "uncertain": 9,
+      "non_target": 10,
+      "unclassified": 0,
+      "possible_target_fraction": 0.36666666666666664,
+      "non_target_fraction": 0.3333333333333333
+    }
+  ],
+  "robustness_matrix": [
+    {
+      "dimension": "mechanism_replication",
+      "rating": "medium_high",
+      "evidence": "Historical-support land-use rescue has non-zero, GIS-confirmed effects in Pihe, Shihe, and Hangbuhe, including both manual decline and increase cases.",
+      "failure_condition": "Regional evidence strength differs, so one hard threshold is not transferable."
+    },
+    {
+      "dimension": "trend_direction_and_manual_scenario",
+      "rating": "high",
+      "evidence": "All 3/3 regional candidates match direction under both retained manual-total scenarios.",
+      "failure_condition": "Pihe direction depends on combining upstream calibration with temporal rescue."
+    },
+    {
+      "dimension": "local_parameter_neighborhood",
+      "rating": "medium_high",
+      "evidence": "Most one-factor threshold variants retain direction; Pihe loses direction only under the strongest 1 ha minimum-area restriction.",
+      "failure_condition": "Large minimum-area or strict fill gates remove too much small-pond capacity."
+    },
+    {
+      "dimension": "absolute_volume",
+      "rating": "medium_low",
+      "evidence": "Shihe and Hangbuhe improve under both manual scenarios; Pihe improves under source total but slightly worsens under component sum.",
+      "failure_condition": "Pihe shared-SAR upstream correction strongly underestimates 2025 absolute volume."
+    },
+    {
+      "dimension": "upstream_baseline_dependence",
+      "rating": "medium_low",
+      "evidence": "Pihe temporal rescue on original V75 matches direction=False, while shared-SAR plus rescue matches direction=True.",
+      "failure_condition": "The qualified Pihe trend is a module interaction and does not survive replacement by the original upstream baseline."
+    },
+    {
+      "dimension": "gis_object_evidence",
+      "rating": "medium",
+      "evidence": "Held-out reviews repeatedly show real ponds among rescued objects and false positives among high-confidence groups; this validates both benefit and known side effects.",
+      "failure_condition": "Samples are mechanism checks rather than probability samples and cannot estimate accuracy."
+    },
+    {
+      "dimension": "cross_date_transfer",
+      "rating": "low",
+      "evidence": "Inputs exist for 19/21 pairs and 11 short-gap pairs, but the qualified chain is still centered on one target/manual pair.",
+      "failure_condition": "Season, rainfall, SAR acquisition geometry, optical cloud, and land-use timing may change the evidence behavior."
+    },
+    {
+      "dimension": "production_readiness",
+      "rating": "low",
+      "evidence": "No production model, mask, or frozen parameter has been changed; manual data remain regional aggregates.",
+      "failure_condition": "Object-level truth, multi-date validation, and bounded implementation are still missing."
+    }
+  ],
+  "overall_decision": "reliable_enough_for_controlled_fine_tuning_not_parameter_freezing",
+  "decision_basis": [
+    "Mechanisms replicate across three regions and opposite trend directions.",
+    "Direction is stable across retained manual-total scenarios and most local parameter perturbations.",
+    "Absolute volume, Pihe upstream dependence, and cross-date transfer remain the limiting dimensions.",
+    "GIS evidence confirms both true-water recovery and false-positive risk, so confidence evidence must remain auditable rather than become an unchecked hard gate."
+  ],
+  "required_before_production": [
+    "Test at least two additional short-gap target dates spanning different observation conditions.",
+    "Preserve both manual-total scenarios until source discrepancies are resolved.",
+    "Implement upstream calibration and land-use rescue as separately switchable modules.",
+    "Evaluate object-level stratified samples or matched manual polygons when available."
+  ]
+}

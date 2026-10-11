@@ -1,0 +1,219 @@
+{
+  "status": "complete",
+  "experiment": "Conservative new-SAR gate paired DEM and trend propagation",
+  "region": "pihe",
+  "source_2025_downstream": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_downstream\\20261010_144117_101667",
+  "source_2024_shared_upstream": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_shared_alpha_c4_water_mask.tif",
+  "paired_reference_2024": {
+    "downstream": {
+      "source_water_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_shared_alpha_c4_water_mask.tif",
+      "post_deduct_morph": {
+        "source_water_pixels": 2076423,
+        "source_water_area_m2": 207642300.0,
+        "aoi_water_pixels": 2076423,
+        "aoi_water_area_m2": 207642300.0,
+        "landuse_intersected_pixels": 2076423,
+        "landuse_intersected_area_m2": 207642300.0,
+        "deducted_union_pixels": 817270,
+        "deducted_union_area_m2": 81727000.0,
+        "pond_candidate_pixels": 1323168,
+        "pond_candidate_area_m2": 132316800.0,
+        "pixel_area_m2": 100.0,
+        "layers": {
+          "_": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_.shp",
+            "raw_overlap_m2": 258500.0,
+            "raw_overlap_pixels": 2585
+          },
+          "_1": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_1.shp",
+            "raw_overlap_m2": 1758000.0,
+            "raw_overlap_pixels": 17580
+          },
+          "_2": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_2.shp",
+            "raw_overlap_m2": 206500.0,
+            "raw_overlap_pixels": 2065
+          },
+          "_3": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_3.shp",
+            "raw_overlap_m2": 1341800.0,
+            "raw_overlap_pixels": 13418
+          },
+          "__1": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__1.shp",
+            "raw_overlap_m2": 1665200.0,
+            "raw_overlap_pixels": 16652
+          },
+          "__2": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__2.shp",
+            "raw_overlap_m2": 2277500.0,
+            "raw_overlap_pixels": 22775
+          },
+          "__3": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__3.shp",
+            "raw_overlap_m2": 901400.0,
+            "raw_overlap_pixels": 9014
+          },
+          "__4": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4.shp",
+            "raw_overlap_m2": 29225500.0,
+            "raw_overlap_pixels": 292255
+          },
+          "__4326": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4326.shp",
+            "raw_overlap_m2": 29225500.0,
+            "raw_overlap_pixels": 292255
+          },
+          "psh_res": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\psh_res.shp",
+            "raw_overlap_m2": 76435800.0,
+            "raw_overlap_pixels": 764358
+          },
+          "known_reservoir": {
+            "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp",
+            "raw_overlap_m2": 76435800.0,
+            "raw_overlap_pixels": 764358
+          }
+        }
+      },
+      "area_gate": {
+        "object_count": 28078,
+        "area_m2": 124841800.0,
+        "area_km2": 124.8418,
+        "rasterized_pixels": 1248418
+      },
+      "after_landuse": {
+        "object_count": 1649,
+        "area_m2": 17723300.0,
+        "area_km2": 17.7233,
+        "rasterized_pixels": 177233
+      },
+      "outputs": {
+        "post_deduct_morph_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\paired_reference_downstream\\2024-06-01\\shared_reference_post_deduct_morph.tif",
+        "area_gate_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\paired_reference_downstream\\2024-06-01\\shared_reference_after_area_gate.tif",
+        "final_mask_tif": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\paired_reference_downstream\\2024-06-01\\shared_reference_after_landuse.tif",
+        "final_objects_gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\paired_reference_downstream\\2024-06-01\\shared_reference_objects_after_landuse.gpkg",
+        "final_objects_csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\paired_reference_downstream\\2024-06-01\\shared_reference_objects_after_landuse.csv"
+      }
+    },
+    "volume": {
+      "object_count": 1649,
+      "area_m2": 17723300.0,
+      "area_km2": 17.7233,
+      "qa_counts": {
+        "OK": 1649
+      },
+      "missing_v75": 0,
+      "v05_m3": 543417.5,
+      "v50_m3": 10604875.0,
+      "v75_m3": 22281437.5,
+      "v95_m3": 47022088.75,
+      "vmean_m3": 11489910.175,
+      "equivalent_depth_v75_div_area": 1.2571833405742723
+    },
+    "outputs": {
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2024-06-01\\shared_reference_objects_with_volume.gpkg",
+      "csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2024-06-01\\shared_reference_objects_with_volume.csv"
+    }
+  },
+  "shared_baseline_2025": {
+    "volume": {
+      "object_count": 2808,
+      "area_m2": 30512000.0,
+      "area_km2": 30.512,
+      "qa_counts": {
+        "OK": 2808
+      },
+      "missing_v75": 0,
+      "v05_m3": 968591.25,
+      "v50_m3": 17210387.5,
+      "v75_m3": 36687500.0,
+      "v95_m3": 79369018.75,
+      "vmean_m3": 19059099.375,
+      "equivalent_depth_v75_div_area": 1.2023957787100157
+    },
+    "outputs": {
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2025-05-21\\shared_baseline_objects_with_volume.gpkg",
+      "csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2025-05-21\\shared_baseline_objects_with_volume.csv"
+    }
+  },
+  "conservative_gate_2025": {
+    "volume": {
+      "object_count": 2650,
+      "area_m2": 28463500.0,
+      "area_km2": 28.4635,
+      "qa_counts": {
+        "OK": 2650
+      },
+      "missing_v75": 0,
+      "v05_m3": 921311.25,
+      "v50_m3": 16356162.5,
+      "v75_m3": 34301875.0,
+      "v95_m3": 74667273.75,
+      "vmean_m3": 17939501.2,
+      "equivalent_depth_v75_div_area": 1.2051179580866724
+    },
+    "outputs": {
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2025-05-21\\conservative_gate_objects_with_volume.gpkg",
+      "csv": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\new_sar_gate_dem_volume\\20261010_145544_878831\\2025-05-21\\conservative_gate_objects_with_volume.csv"
+    }
+  },
+  "survey_evaluation": {
+    "shared_baseline": {
+      "model_wan_m3": {
+        "2024-06-01": 2228.14375,
+        "2025-05-21": 3668.75
+      },
+      "survey_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14829.85625,
+        "2025-05-21": 5505.25
+      },
+      "total_absolute_error_wan_m3": 20335.10625,
+      "mape_percent": 73.47355120012966,
+      "model_2025_to_2024_ratio": 1.6465499589063766,
+      "survey_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 1.1189280705838254,
+      "direction_matches_survey": false
+    },
+    "conservative_gate": {
+      "model_wan_m3": {
+        "2024-06-01": 2228.14375,
+        "2025-05-21": 3430.1875
+      },
+      "survey_wan_m3": {
+        "2024-06-01": 17058.0,
+        "2025-05-21": 9174.0
+      },
+      "absolute_error_wan_m3": {
+        "2024-06-01": 14829.85625,
+        "2025-05-21": 5743.8125
+      },
+      "total_absolute_error_wan_m3": 20573.66875,
+      "mape_percent": 74.77376103226393,
+      "model_2025_to_2024_ratio": 1.5394821361952071,
+      "survey_2025_to_2024_ratio": 0.5378121702427013,
+      "absolute_log_ratio_error": 1.0516919903963748,
+      "direction_matches_survey": false
+    }
+  },
+  "paired_effect": {
+    "object_count_change_2025": -158,
+    "area_change_m2_2025": -2048500.0,
+    "v75_change_m3_2025": -2385625.0,
+    "v75_percent_change_2025": -6.502555366269165,
+    "total_absolute_error_reduction_wan_m3": -238.5625,
+    "trend_log_error_reduction": 0.06723608018745053
+  },
+  "limits": [
+    "The 2024 reference is unchanged; the selective gate is a 2025 new-coverage mechanism.",
+    "Volumes remain conditional on the existing DEM boundary-level and V75 calculations.",
+    "Two uncertain full-removal holdout cases remain a side-effect risk.",
+    "This is Pihe only and does not establish transfer to Shihe, Hangbuhe, or all Pishihang.",
+    "No production output or model parameter is modified."
+  ]
+}

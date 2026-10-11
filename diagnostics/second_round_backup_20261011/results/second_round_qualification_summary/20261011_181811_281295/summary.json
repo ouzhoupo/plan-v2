@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "experiment": "Second-round cross-region qualification summary",
+  "qualification_rule": [
+    "Candidate must improve trend error and retain the manual direction.",
+    "Absolute-error effects must be reported under every unresolved manual-total scenario.",
+    "Candidate mechanism must have GIS evidence and cannot be selected by manual totals alone."
+  ],
+  "regions": [
+    {
+      "region": "pihe",
+      "candidate": "shared_sar_plus_temporal_shape",
+      "mechanism": "shared SAR upstream calibration + historical-support land-use rescue",
+      "objects": "6565 temporal-shape objects",
+      "increment_v75_wan_m3": 2938.6875,
+      "model_ratio": 0.6638861100795579,
+      "manual_ratio_source_total": 0.5378121702427013,
+      "manual_ratio_component_sum": 0.5725759174580842,
+      "direction_matches_source_total": true,
+      "direction_matches_component_sum": true,
+      "trend_error_reduction_source_total": 2.320795669686934,
+      "trend_error_reduction_component_sum": 2.320795669686934,
+      "trend_error_reduction_fraction_source_total": 0.9168043384704121,
+      "trend_error_reduction_fraction_component_sum": 0.9400649624445278,
+      "absolute_error_reduction_source_total_wan_m3": 938.8675000000003,
+      "absolute_error_reduction_component_sum_wan_m3": -247.1324999999997,
+      "qualification": "qualified_for_fine_tuning",
+      "main_risk": "Absolute-error conclusion changes slightly with the unresolved 2025 manual total; upstream-only correction underestimates 2025."
+    },
+    {
+      "region": "shihe",
+      "candidate": "two_history_strong_plus_target_scl_ge_025",
+      "mechanism": "two historical dates as strong evidence; target SCL as conservative secondary rescue",
+      "objects": 8745,
+      "increment_v75_wan_m3": 5367.282499999981,
+      "model_ratio": 0.6565482156061607,
+      "manual_ratio_source_total": 0.17691047646179048,
+      "manual_ratio_component_sum": 0.20823203956744069,
+      "direction_matches_source_total": true,
+      "direction_matches_component_sum": true,
+      "trend_error_reduction_source_total": 0.46619773033738987,
+      "trend_error_reduction_component_sum": 0.46619773033738965,
+      "trend_error_reduction_fraction_source_total": 0.262269820308977,
+      "trend_error_reduction_fraction_component_sum": 0.288749420939134,
+      "absolute_error_reduction_source_total_wan_m3": 4640.690000000019,
+      "absolute_error_reduction_component_sum_wan_m3": 416.6900000000187,
+      "qualification": "qualified_for_fine_tuning",
+      "main_risk": "Manual 2024 total discrepancy remains; stable false positives can survive two historical dates."
+    },
+    {
+      "region": "hangbuhe",
+      "candidate": "single_history_plus_loose_shape",
+      "mechanism": "single pre-target historical support + loose object-shape bounds",
+      "objects": 1819,
+      "increment_v75_wan_m3": 1078.7624999999996,
+      "model_ratio": 1.5216528976879204,
+      "manual_ratio_source_total": 1.25452016689847,
+      "manual_ratio_component_sum": 1.25452016689847,
+      "direction_matches_source_total": true,
+      "direction_matches_component_sum": true,
+      "trend_error_reduction_source_total": 0.5200497563331171,
+      "trend_error_reduction_component_sum": 0.5200497563331171,
+      "trend_error_reduction_fraction_source_total": 0.7292866347906781,
+      "trend_error_reduction_fraction_component_sum": 0.7292866347906781,
+      "absolute_error_reduction_source_total_wan_m3": 1078.7624999999998,
+      "absolute_error_reduction_component_sum_wan_m3": 1078.7624999999998,
+      "qualification": "qualified_for_fine_tuning",
+      "main_risk": "Single-history candidate retains agricultural and edge false positives; hard confidence gates remove real ponds."
+    }
+  ],
+  "overall_decision": "qualified_for_module_fine_tuning_not_production",
+  "next_stage": [
+    "Preserve the model chain and implement corrections as bounded module options.",
+    "Separate cross-date upstream calibration from land-use rescue confidence scoring.",
+    "Validate additional date pairs before freezing regional or shared parameters.",
+    "Keep absolute volume and trend fit as separate objectives."
+  ]
+}

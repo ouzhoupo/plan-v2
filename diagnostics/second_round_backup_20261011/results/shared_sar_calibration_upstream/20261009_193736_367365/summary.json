@@ -1,0 +1,322 @@
+{
+  "status": "complete",
+  "experiment": "Shared SAR calibration upstream counterfactual",
+  "reference_parameters": {
+    "th_vv": -13.535,
+    "th_vh": -21.5,
+    "sigma_vv": 1.2,
+    "sigma_vh": 1.23
+  },
+  "variants": {
+    "shared_sar_current_alpha": "Only the direct SAR path uses the common reference; date-trained optical model and alpha stay fixed.",
+    "shared_sar_shared_alpha": "Common SAR reference plus the frozen 2024-06 optical alpha.",
+    "shared_sar_alpha_035": "Common SAR reference plus the existing optical formula floor.",
+    "shared_sar_base_only_bound": "Common SAR reference plus base optical only; diagnostic lower bound."
+  },
+  "dates": {
+    "2024-05-21": {
+      "date": "2024-05-21",
+      "original_sar_parameters": {
+        "th_vv": -12.935,
+        "th_vh": -21.987,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.267
+      },
+      "shared_sar_parameters": {
+        "th_vv": -13.535,
+        "th_vh": -21.5,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.23
+      },
+      "current_optical_blend": 0.8,
+      "model_quality": 0.9310679894900007,
+      "training_effect": {
+        "positive_before": 80966,
+        "positive_removed": 13878,
+        "positive_removed_fraction": 0.1714052812291579,
+        "negative_removed": 0
+      },
+      "current_reference": {
+        "c3_water_pixels": 4429270,
+        "c4_water_pixels": 4429270,
+        "c3_water_km2": 442.927,
+        "c4_water_km2": 442.927
+      },
+      "variants": {
+        "shared_sar_current_alpha": {
+          "optical_blend": 0.8,
+          "c3_water_pixels": 4146454,
+          "c4_water_pixels": 4146454,
+          "c3_added_vs_current_pixels": 26258,
+          "c3_removed_vs_current_pixels": 309074,
+          "c4_added_vs_current_pixels": 26258,
+          "c4_removed_vs_current_pixels": 309074,
+          "c3_water_km2": 414.6454,
+          "c4_water_km2": 414.6454,
+          "c3_added_vs_current_km2": 2.6258,
+          "c3_removed_vs_current_km2": 30.9074,
+          "c4_added_vs_current_km2": 2.6258,
+          "c4_removed_vs_current_km2": 30.9074,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_current_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_current_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_shared_alpha": {
+          "optical_blend": 0.6142669675465995,
+          "c3_water_pixels": 3208495,
+          "c4_water_pixels": 3208495,
+          "c3_added_vs_current_pixels": 17461,
+          "c3_removed_vs_current_pixels": 1238236,
+          "c4_added_vs_current_pixels": 17461,
+          "c4_removed_vs_current_pixels": 1238236,
+          "c3_water_km2": 320.8495,
+          "c4_water_km2": 320.8495,
+          "c3_added_vs_current_km2": 1.7461,
+          "c3_removed_vs_current_km2": 123.8236,
+          "c4_added_vs_current_km2": 1.7461,
+          "c4_removed_vs_current_km2": 123.8236,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_shared_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_shared_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_alpha_035": {
+          "optical_blend": 0.35,
+          "c3_water_pixels": 2499613,
+          "c4_water_pixels": 2499613,
+          "c3_added_vs_current_pixels": 36684,
+          "c3_removed_vs_current_pixels": 1966341,
+          "c4_added_vs_current_pixels": 36684,
+          "c4_removed_vs_current_pixels": 1966341,
+          "c3_water_km2": 249.9613,
+          "c4_water_km2": 249.9613,
+          "c3_added_vs_current_km2": 3.6684,
+          "c3_removed_vs_current_km2": 196.6341,
+          "c4_added_vs_current_km2": 3.6684,
+          "c4_removed_vs_current_km2": 196.6341,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_alpha_035_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_alpha_035_c4_water_mask.tif"
+        },
+        "shared_sar_base_only_bound": {
+          "optical_blend": 0.0,
+          "c3_water_pixels": 2300774,
+          "c4_water_pixels": 2300774,
+          "c3_added_vs_current_pixels": 95804,
+          "c3_removed_vs_current_pixels": 2224300,
+          "c4_added_vs_current_pixels": 95804,
+          "c4_removed_vs_current_pixels": 2224300,
+          "c3_water_km2": 230.0774,
+          "c4_water_km2": 230.0774,
+          "c3_added_vs_current_km2": 9.5804,
+          "c3_removed_vs_current_km2": 222.43,
+          "c4_added_vs_current_km2": 9.5804,
+          "c4_removed_vs_current_km2": 222.43,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_base_only_bound_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-05-21\\shared_sar_base_only_bound_c4_water_mask.tif"
+        }
+      }
+    },
+    "2024-06-01": {
+      "date": "2024-06-01",
+      "original_sar_parameters": {
+        "th_vv": -13.535,
+        "th_vh": -21.5,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.23
+      },
+      "shared_sar_parameters": {
+        "th_vv": -13.535,
+        "th_vh": -21.5,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.23
+      },
+      "current_optical_blend": 0.6142669675465995,
+      "model_quality": 0.7761779783643996,
+      "training_effect": {
+        "positive_before": 80460,
+        "positive_removed": 7109,
+        "positive_removed_fraction": 0.08835446184439473,
+        "negative_removed": 0
+      },
+      "current_reference": {
+        "c3_water_pixels": 2032172,
+        "c4_water_pixels": 2077158,
+        "c3_water_km2": 203.2172,
+        "c4_water_km2": 207.7158
+      },
+      "variants": {
+        "shared_sar_current_alpha": {
+          "optical_blend": 0.6142669675465995,
+          "c3_water_pixels": 2032172,
+          "c4_water_pixels": 2077158,
+          "c3_added_vs_current_pixels": 0,
+          "c3_removed_vs_current_pixels": 0,
+          "c4_added_vs_current_pixels": 0,
+          "c4_removed_vs_current_pixels": 0,
+          "c3_water_km2": 203.2172,
+          "c4_water_km2": 207.7158,
+          "c3_added_vs_current_km2": 0.0,
+          "c3_removed_vs_current_km2": 0.0,
+          "c4_added_vs_current_km2": 0.0,
+          "c4_removed_vs_current_km2": 0.0,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_current_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_current_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_shared_alpha": {
+          "optical_blend": 0.6142669675465995,
+          "c3_water_pixels": 2032172,
+          "c4_water_pixels": 2076423,
+          "c3_added_vs_current_pixels": 0,
+          "c3_removed_vs_current_pixels": 0,
+          "c4_added_vs_current_pixels": 306,
+          "c4_removed_vs_current_pixels": 1041,
+          "c3_water_km2": 203.2172,
+          "c4_water_km2": 207.6423,
+          "c3_added_vs_current_km2": 0.0,
+          "c3_removed_vs_current_km2": 0.0,
+          "c4_added_vs_current_km2": 0.0306,
+          "c4_removed_vs_current_km2": 0.1041,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_shared_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_shared_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_alpha_035": {
+          "optical_blend": 0.35,
+          "c3_water_pixels": 1773832,
+          "c4_water_pixels": 1817501,
+          "c3_added_vs_current_pixels": 21844,
+          "c3_removed_vs_current_pixels": 280184,
+          "c4_added_vs_current_pixels": 22616,
+          "c4_removed_vs_current_pixels": 282273,
+          "c3_water_km2": 177.3832,
+          "c4_water_km2": 181.7501,
+          "c3_added_vs_current_km2": 2.1844,
+          "c3_removed_vs_current_km2": 28.0184,
+          "c4_added_vs_current_km2": 2.2616,
+          "c4_removed_vs_current_km2": 28.2273,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_alpha_035_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_alpha_035_c4_water_mask.tif"
+        },
+        "shared_sar_base_only_bound": {
+          "optical_blend": 0.0,
+          "c3_water_pixels": 1723034,
+          "c4_water_pixels": 1766978,
+          "c3_added_vs_current_pixels": 138877,
+          "c3_removed_vs_current_pixels": 448015,
+          "c4_added_vs_current_pixels": 140876,
+          "c4_removed_vs_current_pixels": 451056,
+          "c3_water_km2": 172.3034,
+          "c4_water_km2": 176.6978,
+          "c3_added_vs_current_km2": 13.8877,
+          "c3_removed_vs_current_km2": 44.8015,
+          "c4_added_vs_current_km2": 14.0876,
+          "c4_removed_vs_current_km2": 45.1056,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_base_only_bound_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2024-06-01\\shared_sar_base_only_bound_c4_water_mask.tif"
+        }
+      }
+    },
+    "2025-05-21": {
+      "date": "2025-05-21",
+      "original_sar_parameters": {
+        "th_vv": -11.389,
+        "th_vh": -20.235,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.21
+      },
+      "shared_sar_parameters": {
+        "th_vv": -13.535,
+        "th_vh": -21.5,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.23
+      },
+      "current_optical_blend": 0.7715367960595878,
+      "model_quality": 0.8810245307063919,
+      "training_effect": {
+        "positive_before": 81176,
+        "positive_removed": 14245,
+        "positive_removed_fraction": 0.17548290135015276,
+        "negative_removed": 0
+      },
+      "current_reference": {
+        "c3_water_pixels": 11020679,
+        "c4_water_pixels": 11020679,
+        "c3_water_km2": 1102.0679,
+        "c4_water_km2": 1102.0679
+      },
+      "variants": {
+        "shared_sar_current_alpha": {
+          "optical_blend": 0.7715367960595878,
+          "c3_water_pixels": 5218453,
+          "c4_water_pixels": 5218453,
+          "c3_added_vs_current_pixels": 0,
+          "c3_removed_vs_current_pixels": 5802226,
+          "c4_added_vs_current_pixels": 0,
+          "c4_removed_vs_current_pixels": 5802226,
+          "c3_water_km2": 521.8453,
+          "c4_water_km2": 521.8453,
+          "c3_added_vs_current_km2": 0.0,
+          "c3_removed_vs_current_km2": 580.2226,
+          "c4_added_vs_current_km2": 0.0,
+          "c4_removed_vs_current_km2": 580.2226,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_current_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_current_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_shared_alpha": {
+          "optical_blend": 0.6142669675465995,
+          "c3_water_pixels": 4148044,
+          "c4_water_pixels": 4148044,
+          "c3_added_vs_current_pixels": 7235,
+          "c3_removed_vs_current_pixels": 6879870,
+          "c4_added_vs_current_pixels": 7235,
+          "c4_removed_vs_current_pixels": 6879870,
+          "c3_water_km2": 414.8044,
+          "c4_water_km2": 414.8044,
+          "c3_added_vs_current_km2": 0.7235,
+          "c3_removed_vs_current_km2": 687.987,
+          "c4_added_vs_current_km2": 0.7235,
+          "c4_removed_vs_current_km2": 687.987,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_shared_alpha_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_shared_alpha_c4_water_mask.tif"
+        },
+        "shared_sar_alpha_035": {
+          "optical_blend": 0.35,
+          "c3_water_pixels": 3314229,
+          "c4_water_pixels": 3314229,
+          "c3_added_vs_current_pixels": 23623,
+          "c3_removed_vs_current_pixels": 7730073,
+          "c4_added_vs_current_pixels": 23623,
+          "c4_removed_vs_current_pixels": 7730073,
+          "c3_water_km2": 331.4229,
+          "c4_water_km2": 331.4229,
+          "c3_added_vs_current_km2": 2.3623,
+          "c3_removed_vs_current_km2": 773.0073,
+          "c4_added_vs_current_km2": 2.3623,
+          "c4_removed_vs_current_km2": 773.0073,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_alpha_035_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_alpha_035_c4_water_mask.tif"
+        },
+        "shared_sar_base_only_bound": {
+          "optical_blend": 0.0,
+          "c3_water_pixels": 3121602,
+          "c4_water_pixels": 3121602,
+          "c3_added_vs_current_pixels": 65422,
+          "c3_removed_vs_current_pixels": 7964499,
+          "c4_added_vs_current_pixels": 65422,
+          "c4_removed_vs_current_pixels": 7964499,
+          "c3_water_km2": 312.1602,
+          "c4_water_km2": 312.1602,
+          "c3_added_vs_current_km2": 6.5422,
+          "c3_removed_vs_current_km2": 796.4499,
+          "c4_added_vs_current_km2": 6.5422,
+          "c4_removed_vs_current_km2": 796.4499,
+          "c3_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_base_only_bound_c3_water_mask.tif",
+          "c4_mask": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\shared_sar_calibration_upstream\\20261009_193736_367365\\2025-05-21\\shared_sar_base_only_bound_c4_water_mask.tif"
+        }
+      }
+    }
+  },
+  "limits": [
+    "The 2024-06 SAR parameters are a diagnostic common scale, not selected production constants.",
+    "The date-trained A3 optical classifier is frozen; SAR pseudo-label training is not retrained in this audit.",
+    "The first variant isolates direct SAR fusion capacity; combined variants test coarse total mechanism capacity.",
+    "Fusion logic, A1, causal A2, hysteresis, morphology and all downstream modules remain structurally unchanged.",
+    "No production code or production output is modified."
+  ]
+}

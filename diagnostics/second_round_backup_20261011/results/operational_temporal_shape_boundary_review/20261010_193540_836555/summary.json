@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "experiment": "Operational temporal-shape sensitive-boundary GIS review",
+  "targets": 12,
+  "pages": 4,
+  "excluded_previous_review_objects": 45,
+  "selection": "Three unseen objects from each capacity-sensitive boundary: previous support 0.25-0.40, area 0.2-0.3 ha, bbox fill 0.45-0.50, and elongation 2.5-3.0.",
+  "limits": [
+    "Mechanism-stratified images do not estimate population accuracy.",
+    "Future support is diagnostic only and may repeat systematic error.",
+    "The four pools can overlap in the population; selected review IDs are unique.",
+    "No threshold, mask, model output, or DEM result is changed."
+  ]
+}

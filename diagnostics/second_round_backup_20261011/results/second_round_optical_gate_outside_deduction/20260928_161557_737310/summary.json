@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "date": "2024-06-01",
+  "low": 0.62,
+  "force": 0.93,
+  "fixed_prior": 0.05,
+  "pixels": {
+    "blocked_total": 575670,
+    "blocked_inside_deduction": 268658,
+    "blocked_outside_deduction": 307012
+  },
+  "areas_km2": {
+    "blocked_total": 57.567,
+    "blocked_inside_deduction": 26.8658,
+    "blocked_outside_deduction": 30.7012
+  },
+  "deduction_sources": [
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\data\\reservoir\\psh_res.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_1.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_2.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\_3.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__1.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__2.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__3.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\__4326.shp",
+    "E:\\workkkkkkkk\\pond_s1s2_v7\\output\\20240601\\pihe\\buffered_river\\psh_res.shp"
+  ],
+  "codes": {
+    "0": "outside diagnostic selection",
+    "1": "blocked inside deduction union",
+    "2": "blocked outside deduction union"
+  },
+  "limits": [
+    "Scope of pixel gate sensitivity, not a restored water mask.",
+    "Outside deduction does not establish pond membership or water truth.",
+    "No seed/connectivity/morphology/area/landuse/DEM propagation.",
+    "Deduction union uses saved group source polygons with all_touched=True; this is geometric screening, not a rerun of all downstream processing."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "experiment": "Shihe SCL secondary-rescue held-out GIS review",
+  "targets": 12,
+  "pages": 4,
+  "groups_after_exclusion": {
+    "scl_ge_025_future": 107,
+    "scl_ge_025_no_future": 118,
+    "scl_010_025_future": 90,
+    "scl_010_025_no_future": 115
+  },
+  "selection": "Three held-out objects near low, median, and high V75 rank per SCL/future stratum.",
+  "purpose": "Compare target SCL thresholds 0.10 and 0.25 for objects lacking second historical support.",
+  "limits": [
+    "Samples diagnose mechanisms and do not estimate population accuracy.",
+    "Future support is retrospective context rather than a selection input.",
+    "SCL is model-side evidence and is not field truth.",
+    "No production output or parameter is changed."
+  ]
+}

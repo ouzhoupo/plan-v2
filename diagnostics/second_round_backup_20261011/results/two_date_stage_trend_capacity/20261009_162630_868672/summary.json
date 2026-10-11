@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "experiment": "Two-date stage trend and remaining-capacity audit",
+  "paired_variant": "C4",
+  "stage_direction_matching_rows": [],
+  "earliest_stage_already_opposite_to_manual": "upstream_water",
+  "final_ratio_identity": {
+    "area_ratio_2025_to_2024": 4.452826037906137,
+    "equivalent_depth_ratio_2025_to_2024": 1.235237470836526,
+    "v75_ratio_2025_to_2024": 5.500297573138204,
+    "log_area_contribution": 1.4935389593079065,
+    "log_depth_contribution": 0.21126323567388525,
+    "log_volume_ratio": 1.7048021949817918
+  },
+  "retained_P1_direction_gap_wan_m3": 5582.5599999999995,
+  "optical_gate_outside_deduction_area_km2": 30.7012,
+  "optical_gate_full_release_volume_proxy_wan_m3": 3859.1999806802796,
+  "optical_gate_proxy_fraction_of_P1_flat_gap": 0.6912957461595182,
+  "optical_gate_full_release_proxy_still_below_flat_gap": true,
+  "interpretation_rules": [
+    "Stage areas include non-target water and are not pond-area truth.",
+    "Manual-implied depth at upstream/intermediate stages is a closure diagnostic, not a physical depth estimate.",
+    "The optical-gate proxy assumes every blocked pixel survives downstream at the C4 2024 final equivalent depth; it is an intentionally optimistic capacity bound, not recoverable volume.",
+    "An opposite trend already present upstream requires renewed upstream/source/calibration attribution even if later gates also contain local errors.",
+    "No threshold, mask, object, DEM volume, or production output is modified."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "experiment": "Hangbuhe two-previous-date held-out GIS review",
+  "targets": 12,
+  "pages": 4,
+  "groups": {
+    "two_previous_and_future": 1085,
+    "two_previous_no_future": 275,
+    "may01_missing_but_future": 167,
+    "may01_missing_no_future": 286
+  },
+  "selection": "Three held-out objects near low, median, and high V75 rank in each persistence/future group.",
+  "limits": [
+    "Samples diagnose mechanisms and do not estimate population accuracy.",
+    "Future support remains retrospective context rather than a selection input.",
+    "No model output or candidate mask is changed."
+  ]
+}

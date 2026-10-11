@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "parent_features": 20,
+  "reviewed_components": 20,
+  "date": "2024-06-01",
+  "limits": [
+    "Reservoir vector polygons are comparison scopes, not contemporaneous water truth.",
+    "Mask storage validity is not sensor observation validity; binary-mask nodata may equal zero.",
+    "Low coverage can reflect drawdown, invalid observations, vector mismatch or recognition error; it is not a measured omission rate.",
+    "C0-C4 stages are frozen first-round upstream variants before vector deduction.",
+    "Parent polygons may overlap; do not sum their areas as an AOI total.",
+    "Gate counts use current resolved config and fixed prior from frozen combination implementation; candidate-eligible residual requires connectivity/morphology investigation and is not a bug verdict.",
+    "C2 evidence precedes A1/A2 changes; C4 nonwater inside vector scope is not ground-truth omission. Numeric probability includes prior/default evidence and does not prove valid observation. Source codes are retained without inventing class meanings. Descriptive 0.5/0.7 bins are not proposed model thresholds.",
+    "No thresholds changed, no water restored and no volume calculated."
+  ]
+}

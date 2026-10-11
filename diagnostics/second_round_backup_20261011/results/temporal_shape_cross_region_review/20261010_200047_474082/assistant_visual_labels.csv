@@ -1,0 +1,13 @@
+region,object_id,review_group,proxy_label,target_scope_interpretation,confidence,notes
+shihe,873,shihe_future_supported,probable_small_pond,possible_target,strong,"Compact dark basin persists across all dates with strong previous and future support."
+shihe,29204,shihe_future_supported,probable_managed_water_body,uncertain_target,moderate,"Coherent basin with target SCL water and partial future support; water is likely, but managed-use survey membership is unresolved."
+shihe,57535,shihe_future_supported,probable_large_managed_water_surface,uncertain_target,moderate,"Large coherent target-SCL water surface with dark SAR and future support; likely water, though artificial or industrial context is possible."
+shihe,150,shihe_without_future_support,seasonal_small_pond,possible_target,moderate,"Dark water-like basin in 2024 becomes much lighter or dry in 2025; future absence is consistent with drying."
+shihe,39555,shihe_without_future_support,probable_seasonal_pond,possible_target,strong,"Clear dark pond in both 2024 images with target SCL water; 2025 appearance suggests drawdown or drying rather than a stable false positive."
+shihe,32468,shihe_without_future_support,agricultural_mosaic_false_positive,probable_nonwater,moderate,"Irregular agricultural or disturbed object with partial historical support and no coherent persistent water body."
+hangbuhe,594,hangbuhe_future_supported,probable_small_pond,possible_target,strong,"Compact persistent dark basin with target SCL and future support."
+hangbuhe,6412,hangbuhe_future_supported,bright_managed_surface,uncertain_target,low,"Bright heterogeneous managed surface has only limited previous and target SCL support despite strong future model support; water status remains uncertain."
+hangbuhe,8409,hangbuhe_future_supported,probable_large_managed_water_body,uncertain_target,strong,"Large coherent target-SCL water area with complete future support; likely real water, with survey membership unresolved."
+hangbuhe,102,hangbuhe_without_future_support,field_or_facility_false_positive,nonwater,strong,"Rectangular brown managed surface lacks coherent water appearance and future support."
+hangbuhe,5566,hangbuhe_without_future_support,cloud_or_bright_water_uncertain,uncertain_target,low,"Target SCL and historical support indicate possible water, but bright imagery and 2025 cloud or haze prevent a confident judgment."
+hangbuhe,2599,hangbuhe_without_future_support,mixed_agricultural_water_complex,probable_non_target,moderate,"Large irregular agricultural and settlement complex with scattered dark patches and weak previous support; not a coherent independent pond."

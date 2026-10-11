@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "experiment": "2024 temporal-evidence land-use rescue geometry materialization",
+  "date": "2024-06-01",
+  "region": "pihe",
+  "area_gate_reproduction": {
+    "object_count": 28078,
+    "area_m2": 124841800.0
+  },
+  "branches": {
+    "operational_previous_and_target_scl": {
+      "object_count": 1417,
+      "area_m2": 7341400.0,
+      "area_km2": 7.3414,
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_landuse_rescue_candidates_2024\\20261010_181232_993446\\operational_previous_and_target_scl.gpkg",
+      "reviewed_object_ids_in_branch": [
+        10732,
+        10918,
+        17709
+      ]
+    },
+    "retrospective_previous_and_future": {
+      "object_count": 12681,
+      "area_m2": 61453000.0,
+      "area_km2": 61.453,
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_landuse_rescue_candidates_2024\\20261010_181232_993446\\retrospective_previous_and_future.gpkg",
+      "reviewed_object_ids_in_branch": [
+        10732,
+        10918,
+        11648,
+        14029,
+        17107,
+        17709
+      ]
+    },
+    "triple_strong": {
+      "object_count": 1209,
+      "area_m2": 6601500.0,
+      "area_km2": 6.6015,
+      "gpkg": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\temporal_landuse_rescue_candidates_2024\\20261010_181232_993446\\triple_strong.gpkg",
+      "reviewed_object_ids_in_branch": [
+        10732,
+        10918,
+        17709
+      ]
+    }
+  },
+  "overlap_checks": {
+    "triple_is_subset_of_operational": true,
+    "triple_is_subset_of_retrospective": true,
+    "operational_retrospective_overlap_objects": 1209
+  },
+  "next_step": "Calculate DEM volumes for each branch separately; never add overlaps.",
+  "limits": [
+    "The 0.25 evidence fraction is a coarse diagnostic bin, not a calibrated threshold.",
+    "The retrospective branch uses 2025 evidence and cannot be an operational 2024 rule.",
+    "Temporal model persistence can repeat stable false positives.",
+    "Real water can still lie outside the manual pond-survey target definition.",
+    "Production masks, parameters, model code, and formal outputs are unchanged."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "selected_components": [
+    "13210",
+    "53549",
+    "12808",
+    "10612"
+  ],
+  "limits": [
+    "Selection is diagnostic, not independent validation.",
+    "Reservoir boundary is not contemporaneous true water extent.",
+    "Red pixels are evidence conflicts, not confirmed omission.",
+    "C2 source is not C4 temporal-fill provenance."
+  ]
+}

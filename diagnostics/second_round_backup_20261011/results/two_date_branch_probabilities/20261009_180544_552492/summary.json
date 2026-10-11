@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "experiment": "Two-date fixed-pixel SAR/optical branch probability audit",
+  "paired_variant_replayed": "C2 = A4 finite-SAR validity + A3 dual-pol optical training",
+  "dates": {
+    "2024-06-01": {
+      "model_quality": 0.7761779783643996,
+      "optical_blend": 0.6142669675465995,
+      "sar_parameters": {
+        "th_vv": -13.535,
+        "th_vh": -21.5,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.23
+      },
+      "training_effect": {
+        "positive_before": 80460,
+        "positive_removed": 7109,
+        "positive_removed_fraction": 0.08835446184439473,
+        "negative_removed": 0
+      }
+    },
+    "2025-05-21": {
+      "model_quality": 0.8810245307063919,
+      "optical_blend": 0.7715367960595878,
+      "sar_parameters": {
+        "th_vv": -11.389,
+        "th_vh": -20.235,
+        "sigma_vv": 1.2,
+        "sigma_vh": 1.21
+      },
+      "training_effect": {
+        "positive_before": 81176,
+        "positive_removed": 14245,
+        "positive_removed_fraction": 0.17548290135015276,
+        "negative_removed": 0
+      }
+    }
+  },
+  "validation": {
+    "probability_pixels": 84181391,
+    "probability_abs_sum_2024": 0.0,
+    "probability_abs_sum_2025": 0.0,
+    "probability_abs_max_2024": 0.0,
+    "probability_abs_max_2025": 0.0,
+    "source_mismatch_2024": 0,
+    "source_mismatch_2025": 0,
+    "water_2025_only_pixels": 9455724,
+    "probability_mae_2024": 0.0,
+    "probability_mae_2025": 0.0,
+    "water_2025_only_matches_previous_audit": true
+  },
+  "outputs": {
+    "branch_summary": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\two_date_branch_probabilities\\20261009_180544_552492\\branch_probability_summary.csv"
+  },
+  "limits": [
+    "Branch probability differences locate calibration drift but do not by themselves establish which date is correct.",
+    "The optical trained probability is derived from SAR pseudo-labels and is not independent SAR evidence.",
+    "Confidence and probability are summarized only on fixed C4 change scopes; this is not an AOI accuracy estimate.",
+    "No threshold, fusion weight, training sample, mask, object, DEM volume, or production output is modified."
+  ]
+}

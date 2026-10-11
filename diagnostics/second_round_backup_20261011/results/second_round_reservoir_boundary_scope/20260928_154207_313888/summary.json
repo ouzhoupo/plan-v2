@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "objects": 1483,
+  "pixel_area_m2": 100.0,
+  "totals": {
+    "effective_release_pixels": 6609,
+    "effective_release_m2": 660900.0,
+    "object_pixels": 165358,
+    "observed_removed_pixels": 129867,
+    "center_removed_pixels": 123186,
+    "all_touched_removed_pixels": 129867,
+    "observed_vs_center_mismatch": 6681,
+    "observed_vs_all_touched_mismatch": 0,
+    "observed_removed_outside_center_pixels": 6681,
+    "observed_removed_outside_center_m2": 668100.0
+  },
+  "limits": [
+    "Scope is the frozen 1483 reservoir-affected target-area components, not the whole AOI.",
+    "Center inclusion is a sensitivity comparison, not ground truth.",
+    "Outside-center pixels may still overlap reservoir geometry.",
+    "Effective release excludes pixels still removed by lake or linear layers; morphology and later gates are not propagated. No object restored or storage computed."
+  ]
+}

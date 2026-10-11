@@ -1,0 +1,13 @@
+object_id,review_group,proxy_label,target_scope_interpretation,confidence,notes
+13265,previous_support_025_to_040,mixed_agricultural_water_complex,uncertain_target,moderate,"Several dark managed-field or water patches persist, but the object also contains agricultural structure; the lower historical fraction is not enough to classify it as false."
+18972,previous_support_025_to_040,construction_or_facility_false_positive,nonwater,strong,"Built or disturbed land with no coherent persistent water body; raising the history threshold would remove this case appropriately."
+13494,previous_support_025_to_040,probable_compact_pond,possible_target,strong,"Coherent dark compact water body in all three optical views with strong future support; a 0.40 history threshold would lose a credible pond."
+25042,small_area_020_to_030ha,probable_small_pond,possible_target,moderate,"Small coherent dark feature with historical and future support; likely a real small water body despite limited resolution."
+27454,small_area_020_to_030ha,small_pond_or_drainage_feature,uncertain_target,moderate,"Persistent narrow water-like feature; real water is likely, but pond versus drainage membership is unresolved."
+23078,small_area_020_to_030ha,small_managed_water_or_facility,uncertain_target,low,"Small rectangular managed feature with persistent partial support; imagery is insufficient to distinguish water from a facility surface confidently."
+25449,bbox_fill_045_to_050,probable_managed_water_surface,uncertain_target,moderate,"Coherent managed feature with strong historical, target SCL and future support, although the bright optical appearance makes exact class uncertain."
+22991,bbox_fill_045_to_050,agricultural_or_construction_false_positive,nonwater,strong,"Irregular patches on a bright disturbed field without a coherent water body."
+1131,bbox_fill_045_to_050,pond_cluster_or_managed_water_complex,possible_target,strong,"Multiple coherent dark basins persist across dates; low bbox fill reflects clustered geometry rather than absence of water."
+593,elongation_25_to_30,probable_elongated_pond,possible_target,strong,"Coherent elongated water body persists across dates; tightening elongation to 2.5 would likely remove real water."
+11929,elongation_25_to_30,managed_water_chain_or_channel,uncertain_target,moderate,"Persistent connected dark water features in an agricultural setting; real water is clear but pond versus irrigation-channel scope is unresolved."
+21641,elongation_25_to_30,probable_elongated_pond,possible_target,strong,"Coherent elongated water body with strong historical and future support; likely real water near the current threshold."

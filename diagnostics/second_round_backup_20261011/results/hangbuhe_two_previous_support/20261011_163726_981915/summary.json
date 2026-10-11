@@ -1,0 +1,195 @@
+{
+  "status": "complete",
+  "experiment": "Hangbuhe two-previous-date support audit",
+  "current_previous_date": "2024-05-21",
+  "added_earlier_date": "2024-05-01",
+  "baseline_evaluation": {
+    "source_total": {
+      "model_ratio": 2.5595895997799563,
+      "manual_ratio": 1.25452016689847,
+      "direction_matches": true,
+      "trend_log_error": 0.7130937707125036,
+      "total_absolute_error_wan_m3": 2475.49125,
+      "mape_percent": 33.126012565956046
+    },
+    "component_sum": {
+      "model_ratio": 2.5595895997799563,
+      "manual_ratio": 1.25452016689847,
+      "direction_matches": true,
+      "trend_log_error": 0.7130937707125036,
+      "total_absolute_error_wan_m3": 2475.49125,
+      "mape_percent": 33.126012565956046
+    }
+  },
+  "variants": [
+    {
+      "variant": "may21_only_current",
+      "objects": 1819,
+      "area_km2": 11.0629,
+      "v75_increment_wan_m3": 1078.7624999999996,
+      "retained_volume_fraction": 1.0,
+      "future_proxy_object_fraction": 0.6899395272127543,
+      "future_proxy_volume_fraction": 0.7384642124656735,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.5216528976879204,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.19304401437938642,
+          "total_absolute_error_wan_m3": 1396.7287500000002,
+          "mape_percent": 18.122361661922664,
+          "trend_log_error_reduction": 0.5200497563331171,
+          "total_absolute_error_reduction_wan_m3": 1078.7624999999998
+        },
+        "component_sum": {
+          "model_ratio": 1.5216528976879204,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.19304401437938642,
+          "total_absolute_error_wan_m3": 1396.7287500000002,
+          "mape_percent": 18.122361661922664,
+          "trend_log_error_reduction": 0.5200497563331171,
+          "total_absolute_error_reduction_wan_m3": 1078.7624999999998
+        }
+      }
+    },
+    {
+      "variant": "may01_ge_010",
+      "objects": 1364,
+      "area_km2": 8.6653,
+      "v75_increment_wan_m3": 870.800000000001,
+      "retained_volume_fraction": 0.8072212372973674,
+      "future_proxy_object_fraction": 0.7969208211143695,
+      "future_proxy_volume_fraction": 0.8207653881488283,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        },
+        "component_sum": {
+          "model_ratio": 1.650693429243099,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.2744422974336835,
+          "total_absolute_error_wan_m3": 1604.691249999999,
+          "mape_percent": 21.014746919224457,
+          "trend_log_error_reduction": 0.4386514732788201,
+          "total_absolute_error_reduction_wan_m3": 870.8000000000011
+        }
+      }
+    },
+    {
+      "variant": "may01_ge_025",
+      "objects": 1315,
+      "area_km2": 8.318,
+      "v75_increment_wan_m3": 841.117500000001,
+      "retained_volume_fraction": 0.7797059130253428,
+      "future_proxy_object_fraction": 0.8045627376425856,
+      "future_proxy_volume_fraction": 0.83080841856221,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.6709180856695576,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.28662006492681125,
+          "total_absolute_error_wan_m3": 1634.3737499999988,
+          "mape_percent": 21.427577239113187,
+          "trend_log_error_reduction": 0.4264737057856923,
+          "total_absolute_error_reduction_wan_m3": 841.1175000000012
+        },
+        "component_sum": {
+          "model_ratio": 1.6709180856695576,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.28662006492681125,
+          "total_absolute_error_wan_m3": 1634.3737499999988,
+          "mape_percent": 21.427577239113187,
+          "trend_log_error_reduction": 0.4264737057856923,
+          "total_absolute_error_reduction_wan_m3": 841.1175000000012
+        }
+      }
+    },
+    {
+      "variant": "may01_ge_050",
+      "objects": 1205,
+      "area_km2": 7.5313,
+      "v75_increment_wan_m3": 769.4500000000006,
+      "retained_volume_fraction": 0.7132709933836233,
+      "future_proxy_object_fraction": 0.820746887966805,
+      "future_proxy_volume_fraction": 0.8439404769640643,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.721855054648004,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.3166490674429648,
+          "total_absolute_error_wan_m3": 1706.0412499999993,
+          "mape_percent": 22.42434358125506,
+          "trend_log_error_reduction": 0.3964447032695388,
+          "total_absolute_error_reduction_wan_m3": 769.4500000000007
+        },
+        "component_sum": {
+          "model_ratio": 1.721855054648004,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.3166490674429648,
+          "total_absolute_error_wan_m3": 1706.0412499999993,
+          "mape_percent": 22.42434358125506,
+          "trend_log_error_reduction": 0.3964447032695388,
+          "total_absolute_error_reduction_wan_m3": 769.4500000000007
+        }
+      }
+    },
+    {
+      "variant": "may01_ge_075",
+      "objects": 1048,
+      "area_km2": 6.5101,
+      "v75_increment_wan_m3": 676.6550000000003,
+      "retained_volume_fraction": 0.627251132663585,
+      "future_proxy_object_fraction": 0.8320610687022901,
+      "future_proxy_volume_fraction": 0.8498902690440479,
+      "evaluation": {
+        "source_total": {
+          "model_ratio": 1.7926115731391927,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.35692037364207463,
+          "total_absolute_error_wan_m3": 1798.8362499999998,
+          "mape_percent": 23.71495554231209,
+          "trend_log_error_reduction": 0.35617339707042894,
+          "total_absolute_error_reduction_wan_m3": 676.6550000000002
+        },
+        "component_sum": {
+          "model_ratio": 1.7926115731391927,
+          "manual_ratio": 1.25452016689847,
+          "direction_matches": true,
+          "trend_log_error": 0.35692037364207463,
+          "total_absolute_error_wan_m3": 1798.8362499999998,
+          "mape_percent": 23.71495554231209,
+          "trend_log_error_reduction": 0.35617339707042894,
+          "total_absolute_error_reduction_wan_m3": 676.6550000000002
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "objects": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\hangbuhe_two_previous_support\\20261011_163726_981915\\hangbuhe_candidates_two_previous_support.csv",
+    "variants": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\hangbuhe_two_previous_support\\20261011_163726_981915\\two_previous_support_variants.csv"
+  },
+  "interpretation": [
+    "Every tested object already satisfies the current 2024-05-21 support rule.",
+    "The earlier date tests persistence using information available before the target date.",
+    "Manual totals evaluate outcomes but never select objects or set the thresholds."
+  ],
+  "limits": [
+    "Two model dates can repeat stable false positives and are not field truth.",
+    "A missing earlier detection can be caused by water-level or observation changes.",
+    "This audit does not modify the model or recompute DEM volume."
+  ]
+}

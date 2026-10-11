@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "experiment": "Independent spatial holdout review of conservative new-SAR gate",
+  "shared_object_count": 122695,
+  "affected_object_count": 41144,
+  "affected_removed_area_km2": 68.2498,
+  "target_count": 12,
+  "page_count": 6,
+  "selection": "Twelve changed shared-baseline objects: three per 5-25%, 25-75%, and >=75% removed-fraction stratum for 0.05-50 ha objects, plus three >=50 ha controls. Targets are kept at least 1 km from the centers of the 16 prior review objects.",
+  "limits": [
+    "This is a mechanism-stratified holdout, not a random accuracy sample.",
+    "Spatial center separation reduces direct sample reuse but does not guarantee statistical independence.",
+    "Visual labels are GIS proxy evidence rather than field truth or survey membership.",
+    "The review covers the 2025 Pihe AOI only and cannot represent Shihe, Hangbuhe, or all Pishihang.",
+    "No production model, downstream object result, DEM volume, or parameter is modified."
+  ]
+}

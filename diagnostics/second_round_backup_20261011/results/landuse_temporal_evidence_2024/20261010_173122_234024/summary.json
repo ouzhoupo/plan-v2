@@ -1,0 +1,70 @@
+{
+  "status": "complete",
+  "experiment": "2024 land-use rejection temporal-evidence capacity audit",
+  "date": "2024-06-01",
+  "region": "pihe",
+  "checks": {
+    "area_gate_objects": 28078,
+    "kept_objects": 1649,
+    "rejected_objects": 26429,
+    "area_gate_area_km2": 124.8418,
+    "final_area_km2": 17.7233,
+    "rejected_object_area_km2": 107.1185
+  },
+  "evidence_capacity": {
+    "previous_any": {
+      "objects": 19712,
+      "area_km2": 92.0907,
+      "fraction_of_rejected_area": 0.8597086404309247
+    },
+    "future_any_retrospective": {
+      "objects": 15709,
+      "area_km2": 78.6933,
+      "fraction_of_rejected_area": 0.7346378076616084
+    },
+    "target_scl_any": {
+      "objects": 2127,
+      "area_km2": 14.1593,
+      "fraction_of_rejected_area": 0.13218351638605844
+    },
+    "previous_fraction_ge_025": {
+      "objects": 18426,
+      "area_km2": 81.5992,
+      "fraction_of_rejected_area": 0.7617657080709681
+    },
+    "future_fraction_ge_025_retrospective": {
+      "objects": 14396,
+      "area_km2": 66.6529,
+      "fraction_of_rejected_area": 0.6222351881327689
+    },
+    "target_scl_fraction_ge_025": {
+      "objects": 1669,
+      "area_km2": 8.3191,
+      "fraction_of_rejected_area": 0.07766258862848154
+    },
+    "at_least_two_sources_any": {
+      "objects": 14388,
+      "area_km2": 75.1751,
+      "fraction_of_rejected_area": 0.7017938077923048
+    },
+    "at_least_two_sources_ge_025": {
+      "objects": 13103,
+      "area_km2": 63.0915,
+      "fraction_of_rejected_area": 0.5889878965818229
+    }
+  },
+  "output_table": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\landuse_temporal_evidence_2024\\20261010_173122_234024\\rejected_objects_temporal_evidence.csv",
+  "interpretation": [
+    "Previous-date mask/SCL support is a candidate operational temporal prior, not truth.",
+    "2025 support is retrospective diagnostic evidence and cannot be used as a real-time 2024 input.",
+    "One-pixel dilation only tests 10 m shoreline/alignment tolerance and is not object restoration.",
+    "The 0.25 fraction is a descriptive capacity bin, not a selected threshold.",
+    "No rejected object is restored and no DEM volume is calculated."
+  ],
+  "limits": [
+    "All temporal masks remain remote-sensing model evidence and share sensor/systematic errors.",
+    "SCL water is not independent field truth and may miss turbid, vegetated, shadowed, or cloud-covered water.",
+    "Survey spatial-scope equivalence remains unresolved because subunit geometries are unavailable.",
+    "Results apply only to the 2024-06 Pihe area-gate objects in this paired chain."
+  ]
+}

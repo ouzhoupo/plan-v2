@@ -1,0 +1,87 @@
+{
+  "status": "complete",
+  "source": "E:\\workkkkkkkk\\pond_s1s2_v7\\diagnostics\\results\\second_round_reservoir_component_features\\20260928_152002_125810",
+  "source_objects": 1483,
+  "comparisons": [
+    {
+      "screening": "area2000_20000_fill40",
+      "fully_removed": "True",
+      "objects": 98,
+      "original_area_km2": 0.5452,
+      "removed_area_km2": 0.5452,
+      "unseen_objects": 98,
+      "known_labels": "{}"
+    },
+    {
+      "screening": "area2000_20000_fill40",
+      "fully_removed": "False",
+      "objects": 267,
+      "original_area_km2": 2.2618,
+      "removed_area_km2": 1.4077,
+      "unseen_objects": 264,
+      "known_labels": "{\"14032\": \"clear_target_water_cut\", \"15211\": \"clear_target_water_minor_cut\", \"54404\": \"clear_target_water_cut\"}"
+    },
+    {
+      "screening": "area2000_20000_fill50",
+      "fully_removed": "True",
+      "objects": 69,
+      "original_area_km2": 0.3271,
+      "removed_area_km2": 0.3271,
+      "unseen_objects": 69,
+      "known_labels": "{}"
+    },
+    {
+      "screening": "area2000_20000_fill50",
+      "fully_removed": "False",
+      "objects": 186,
+      "original_area_km2": 1.4706,
+      "removed_area_km2": 0.9153,
+      "unseen_objects": 185,
+      "known_labels": "{\"15211\": \"clear_target_water_minor_cut\"}"
+    },
+    {
+      "screening": "area2000_200000_fill40",
+      "fully_removed": "True",
+      "objects": 103,
+      "original_area_km2": 0.8657,
+      "removed_area_km2": 0.8657,
+      "unseen_objects": 100,
+      "known_labels": "{\"4712\": \"clear_target_water\", \"16560\": \"clear_target_water\", \"17010\": \"clear_target_water\"}"
+    },
+    {
+      "screening": "area2000_200000_fill40",
+      "fully_removed": "False",
+      "objects": 386,
+      "original_area_km2": 8.1076,
+      "removed_area_km2": 6.0938,
+      "unseen_objects": 383,
+      "known_labels": "{\"14032\": \"clear_target_water_cut\", \"15211\": \"clear_target_water_minor_cut\", \"54404\": \"clear_target_water_cut\"}"
+    },
+    {
+      "screening": "area2000_200000_fill50",
+      "fully_removed": "True",
+      "objects": 74,
+      "original_area_km2": 0.6476,
+      "removed_area_km2": 0.6476,
+      "unseen_objects": 71,
+      "known_labels": "{\"4712\": \"clear_target_water\", \"16560\": \"clear_target_water\", \"17010\": \"clear_target_water\"}"
+    },
+    {
+      "screening": "area2000_200000_fill50",
+      "fully_removed": "False",
+      "objects": 251,
+      "original_area_km2": 4.5203,
+      "removed_area_km2": 3.3982,
+      "unseen_objects": 250,
+      "known_labels": "{\"15211\": \"clear_target_water_minor_cut\"}"
+    }
+  ],
+  "interpretation": [
+    "Exploratory sensitivity screens, not validated rescue rules.",
+    "Area and shape cutoffs are diagnostic choices, not literature or administrative pond definitions.",
+    "All 18 previously reviewed reservoir objects are design evidence; future validation must exclude them.",
+    "Removed area is screening capacity, not confirmed error or storage gain.",
+    "Small reservoirs may remain excluded targets even when visually isolated; inventory scope must be checked.",
+    "C2 probability measures upstream water evidence, not pond membership; C4 may include later temporal fills."
+  ]
+}
